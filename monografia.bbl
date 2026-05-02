@@ -5,14 +5,22 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v<VERSION> }
 
-\bibitem[INTERNATIONAL BUSINESS MACHINES CORPORATION – IBM 2021]{ref:ibmm}
-\abntrefinfo{INTERNATIONAL BUSINESS MACHINES CORPORATION – IBM}{INTERNATIONAL
-  BUSINESS MACHINES CORPORATION – IBM}{2021}
-{INTERNATIONAL BUSINESS MACHINES CORPORATION – IBM. \emph{\textbf{Web
-  Services}. \normalfont IBM Sterling B2B Integrator, version 5.2.0}. 2021.
-Dispon{\'\i}vel em:
-  $<$https://www.ibm.com/docs/en/b2b-integrator/5.2?topic=products-web-services$>$.
-  Acesso em: 10 jul 2021.}
+\bibitem[Hodel 2018]{ref:hodel}
+\abntrefinfo{Hodel}{HODEL}{2018}
+{HODEL, K.~N. \emph{\textbf{Planejamento e Estruturação de Testes de Software
+  em Sistemas Eletrônicos Embarcados Automotivos}}. 2018. Tese (Doutorado em
+  Ciências) -- Escola Politécnica, Universidade de São Paulo.
+150 f. Disponível em:
+  https://teses.usp.br/teses/disponiveis/3/3142/tde-25092018-074019/publico/KleberNogueiraHodelCorr18.pdf.
+  Acesso em: 2 maio 2026.}
+
+\bibitem[Jubelli 2022]{ref:jubelli}
+\abntrefinfo{Jubelli}{JUBELLI}{2022}
+{JUBELLI, F.~J. \emph{\textbf{Análise da Certificação e Ensaio de Testes de
+  Software Aplicado à Sistemas Eletrônicos Embarcados}}. 2022. Monografia
+  (Bacharelado em Engenharia Elétrica) -- Instituto Federal de Santa Catarina
+  (IFSC), Joinville.
+71 f.}
 
 \bibitem[Mulligan e Gra{\v c}anin 2009]{ref:mulligan}
 \abntrefinfo{Mulligan e Gra{\v c}anin}{MULLIGAN; GRA{\v C}ANIN}{2009}
@@ -26,10 +34,5 @@ Dispon{\'\i}vel em:
 {NUSEIBEH, B.; EASTERBROOK, S. \textbf{\textit{\capitalisewords{requirements
   engineering: a roadmap}}}. \textit{In}: . [S.l.]: ACM Press, 2000. p.
   35--46.}
-
-\bibitem[Vazquez e Sim{\~o}es 2016]{ref:vazquez}
-\abntrefinfo{Vazquez e Sim{\~o}es}{VAZQUEZ; SIM{\~O}ES}{2016}
-{VAZQUEZ, C.~E.; SIM{\~O}ES, G.~S. \emph{\normalfont \textbf{Engenharia de
-  Requisitos: software orientado ao negócio}}. 1. ed. [S.l.]: BRASPORT, 2016.}
 
 \end{thebibliography}
