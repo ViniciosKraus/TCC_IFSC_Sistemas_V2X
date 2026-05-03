@@ -5,6 +5,24 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v<VERSION> }
 
+\bibitem[{CONFEDERAÇÃO NACIONAL DO TRANSPORTE (CNT)} 2026]{ref:panoramacnt}
+\abntrefinfo{{CONFEDERAÇÃO NACIONAL DO TRANSPORTE (CNT)}}{{CONFEDERAÇÃO
+  NACIONAL DO TRANSPORTE (CNT)}}{2026}
+{{CONFEDERAÇÃO NACIONAL DO TRANSPORTE (CNT)}. \emph{\textbf{Panorama CNT de
+  Acidentes Rodoviários – 2025}}. Brasília: CNT, 2026.
+Dispon{\'\i}vel em:
+  $<$https://data.cnt.org.br/destaques/panorama-cnt-de-acidentes-rodoviarios-2025/$>$.
+  Acesso em: 3 maio 2026.}
+
+\bibitem[{DEPARTAMENTO DE INFORMÁTICA DO SUS (DATASUS)} 2024]{ref:datasus}
+\abntrefinfo{{DEPARTAMENTO DE INFORMÁTICA DO SUS (DATASUS)}}{{DEPARTAMENTO DE
+  INFORMÁTICA DO SUS (DATASUS)}}{2024}
+{{DEPARTAMENTO DE INFORMÁTICA DO SUS (DATASUS)}. \emph{\textbf{Análise
+  DATASUS 2024: estatísticas de mortalidade e saúde pública}}. Brasília:
+  Ministério da Saúde, 2024.
+Dispon{\'\i}vel em: $<$https://www.onsv.org.br/estudos/analise-datasus-2024$>$.
+  Acesso em: 3 maio 2026.}
+
 \bibitem[Hodel 2018]{ref:hodel}
 \abntrefinfo{Hodel}{HODEL}{2018}
 {HODEL, K.~N. \emph{\textbf{Planejamento e Estruturação de Testes de Software
@@ -34,5 +52,11 @@
 {NUSEIBEH, B.; EASTERBROOK, S. \textbf{\textit{\capitalisewords{requirements
   engineering: a roadmap}}}. \textit{In}: . [S.l.]: ACM Press, 2000. p.
   35--46.}
+
+\bibitem[{ORGANIZAÇÃO MUNDIAL DA SAÚDE (OMS)} 2023]{ref:oms}
+\abntrefinfo{{ORGANIZAÇÃO MUNDIAL DA SAÚDE (OMS)}}{{ORGANIZAÇÃO MUNDIAL DA
+  SAÚDE (OMS)}}{2023}
+{{ORGANIZAÇÃO MUNDIAL DA SAÚDE (OMS)}. \emph{\textbf{Global status report on
+  road safety 2023}}. Genebra: OMS, 2023.}
 
 \end{thebibliography}

@@ -2,3 +2,9 @@
 \sortitem {DSRC}{\makefirstuc {\textit {Dedicated Short-Range Communications}}}
 \sortitem {C-V2X}{\makefirstuc {\textit {Cellular Vehicle-to-Everything}}}
 \sortitem {SUMO}{\makefirstuc {\textit {Simulation of Urban Mobility}}}
+\sortitem {ECU}{\makefirstuc {Unidades de Controle Eletrônico}}
+\sortitem {ITS}{\makefirstuc {Sistemas de Transporte Inteligente}}
+\sortitem {V2X}{\makefirstuc {\textit {Vehicle-to-Everything}}}
+\sortitem {OMS}{\makefirstuc {Organização Mundial da Saúde}}
+\sortitem {CNT}{\makefirstuc {Confederação Nacional do Transporte}}
+\sortitem {DATASUS}{\makefirstuc {Departamento de Informática do SUS}}
