@@ -12,7 +12,7 @@ A level-1 auxiliary file: tex/cap4.aux
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: tex/cap5.aux
 Reallocating 'name_of_file' (item size: 1) to 12 items.
-Illegal, another \bibdata command---line 62 of file monografia.aux
+Illegal, another \bibdata command---line 65 of file monografia.aux
  : \bibdata
  :         {abntex2-options,referencias}
 I'm skipping whatever remains of this command
@@ -34,7 +34,6 @@ Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Database file #1: referencias.bib
 Warning--I didn't find a database entry for "abnt-url-package=url"
 Warning--I didn't find a database entry for "abnt-etal-text=emph"
-Warning--I didn't find a database entry for "ref:ibmm"
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
@@ -46,43 +45,43 @@ Reallocating 'global_strs' (item size: 1) to 4000000 items.
 +---------------------------------------------------------+
 You've used 7 entries,
             6712 wiz_defined-function locations,
-            1250 strings with 11013 characters,
-and the built_in function-call counts, 5724 in all, are:
-= -- 596
-> -- 139
-< -- 2
-+ -- 98
-- -- 45
-* -- 338
-:= -- 832
-add.period$ -- 33
+            1250 strings with 11080 characters,
+and the built_in function-call counts, 5377 in all, are:
+= -- 558
+> -- 122
+< -- 1
++ -- 91
+- -- 40
+* -- 315
+:= -- 801
+add.period$ -- 32
 call.type$ -- 7
-change.case$ -- 56
+change.case$ -- 52
 chr.to.int$ -- 7
 cite$ -- 7
-duplicate$ -- 250
-empty$ -- 460
-format.name$ -- 209
-if$ -- 1387
+duplicate$ -- 240
+empty$ -- 431
+format.name$ -- 185
+if$ -- 1287
 int.to.chr$ -- 0
 int.to.str$ -- 0
 missing$ -- 121
-newline$ -- 40
+newline$ -- 42
 num.names$ -- 35
-pop$ -- 186
+pop$ -- 176
 preamble$ -- 1
-purify$ -- 23
+purify$ -- 22
 quote$ -- 0
-skip$ -- 333
+skip$ -- 315
 stack$ -- 1
-substring$ -- 224
-swap$ -- 126
-text.length$ -- 2
+substring$ -- 202
+swap$ -- 120
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2
+type$ -- 3
 warning$ -- 0
-while$ -- 48
+while$ -- 45
 width$ -- 0
-write$ -- 116
+write$ -- 117
 (There was 1 error message)

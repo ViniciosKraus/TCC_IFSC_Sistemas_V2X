@@ -47,16 +47,18 @@ Dispon{\'\i}vel em: $<$https://www.onsv.org.br/estudos/analise-datasus-2024$>$.
   middleware framework}}}. \textit{In}: . [S.l.]: Winter Simulation Conference,
   2009. p. 1423–1432.}
 
-\bibitem[Nuseibeh e Easterbrook 2000]{ref:Nuseibeh}
-\abntrefinfo{Nuseibeh e Easterbrook}{NUSEIBEH; EASTERBROOK}{2000}
-{NUSEIBEH, B.; EASTERBROOK, S. \textbf{\textit{\capitalisewords{requirements
-  engineering: a roadmap}}}. \textit{In}: . [S.l.]: ACM Press, 2000. p.
-  35--46.}
-
 \bibitem[{ORGANIZAÇÃO MUNDIAL DA SAÚDE (OMS)} 2023]{ref:oms}
 \abntrefinfo{{ORGANIZAÇÃO MUNDIAL DA SAÚDE (OMS)}}{{ORGANIZAÇÃO MUNDIAL DA
   SAÚDE (OMS)}}{2023}
 {{ORGANIZAÇÃO MUNDIAL DA SAÚDE (OMS)}. \emph{\textbf{Global status report on
   road safety 2023}}. Genebra: OMS, 2023.}
+
+\bibitem[OTA 2019]{ref:ota}
+\abntrefinfo{OTA}{OTA}{2019}
+{OTA, D.
+\emph{\textbf{Early De-Risking of Land Vehicles: Open System Architecture
+  Implementations}}.
+Tese (Tese (Doutorado em Computação, Engenharia e Matemática)) --- Vetronics
+  Research Centre, University of Brighton, Brighton, 2019. 150 f.}
 
 \end{thebibliography}
