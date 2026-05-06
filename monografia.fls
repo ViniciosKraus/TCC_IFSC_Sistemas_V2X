@@ -1,6 +1,6 @@
-PWD G:\My Drive\Acadêmico\IFSC\TCC\IFSC_LATEX_TCC
+PWD g:\My Drive\Acadêmico\IFSC\TCC\IFSC_LATEX_TCC
 INPUT C:\Users\vinic\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT monografia.tex
+INPUT g:\My Drive\Acadêmico\IFSC\TCC\IFSC_LATEX_TCC\monografia.tex
 OUTPUT monografia.log
 INPUT C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex\latex\abntex2\abntex2.cls
 INPUT C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex\latex\abntex2\abntex2.cls

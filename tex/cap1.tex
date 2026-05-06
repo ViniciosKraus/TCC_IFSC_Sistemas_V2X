@@ -1,9 +1,9 @@
 \chapter{Introdução}
 
 Desde que o primeiro veículo a combustão interna foi produzido lá no final do século XIX por Karl Benz, a ideia geral de automóvel não sofreu grandes alterações,
-mantendo uma essencia quase completamente mecânica por mais de um século, usando o motor a combustão para propulção e as rodas e eixos para transmissão de potência
-para o solo. Mas como destaca Hodel \cite{ref:hodel}, o que mais mudou nessas ultimas décadas foi o desenvolvimento de sistemas eletrônicos embarcados nos veículos,
-saindo de um produto puramente mecânico para um produto que cada vez mais intregra sistemas computacionais e softwares.
+mantendo uma essência quase completamente mecânica por mais de um século, usando o motor a combustão para propulção e as rodas e eixos para transmissão de potência
+para o solo. Mas como destaca Hodel \cite{ref:hodel}, o que mais mudou nessas últimas décadas foi o desenvolvimento de sistemas eletrônicos embarcados nos veículos,
+saindo de um produto puramente mecânico para um produto que cada vez mais integra sistemas computacionais e softwares.
 
 Essa revolução tecnológica vem após a introdução das Unidades de Controle Eletrônico (ECUs) nos veículos. Conforme destaca Jubelli \cite{ref:jubelli}, tudo se
 iniciou por volta de 1970 e evoluiu para os atuais sistemas de controle eletrônicos embarcados, onde cada carro pode possuir mais de 80 ECUs, responsáveis por
@@ -11,17 +11,17 @@ controlar e monitorar uma variedade de funções do automóvel, gerenciando sist
 complexidade empregada nesses sistemas impulsionou o surgimento de Sistemas de Transporte Inteligente (ITS), que buscam integrar comunicação e controle para
 melhorar a segurança, eficiência e sustentabilidade do transporte.
 
-Como parte da evolução dos ITS, hoje já falamos em Sistemas de Transporte Inteligente Cooperativo (C-ITS), onde a conciência cooperativa é concebida através da
+Como parte da evolução dos ITS, hoje já falamos em Sistemas de Transporte Inteligente Cooperativo (C-ITS), onde a consciência cooperativa é concebida através da
 tecnologia V2X (\textit{Vehicle-to-Everything}). Automóveis convencionais geralmente possuem sensores como radares e câmeras para monitorar o ambiente ao redor,
 mas acabam sendo limitados pela linha de visão e alcance desses sensores. O V2X, por outro lado, permite trazer uma visão além da linha de visão do próprio veículo,
-possibilitando a comunicação entre outros veículos, infraestrutura rodoviária e até mesmo pedestres, criando uma maior conciência sobre o ambiente próximo. Essa
+possibilitando a comunicação entre outros veículos, infraestrutura rodoviária e até mesmo pedestres, criando uma maior consciência sobre o ambiente próximo. Essa
 comunicação cooperativa foi viabilizada pelas tecnologias DSRC ou C-V2X, que funcionam respectivamente pelos padrões da IEEE 802.11p e por redes celulares LTE e 5G,
 permitindo a troca de informações em tempo real entre os participantes do sistema de transporte.
 
 A implementação de novas tecnologias no setor automotivo é de extrema importância devido ao significativo impacto socioeconômico que os sistemas podem proporcionar.
 Em uma escala global, a Organização Mundial da Saúde (OMS) registra, em 2023, cerca de 1,19 milhão de mortes por ano devido a acidentes de trânsito \cite{ref:oms}.
-Já no cenario brasileiro, temos dados provenientes do \cite{ref:datasus}, nos mostrando que no ano de 2024, nosso país apresentou número de 37.150 óbitos no trânsito.
-Registros mais recentes do \cite{ref:panoramacnt}, eleborado com a base de dados da Polícia Rodoviária Federal, motram que acidentes em rodovias federais geram um
+Já no cenário brasileiro, temos dados provenientes do \cite{ref:datasus}, nos mostrando que no ano de 2024, nosso país apresentou número de 37.150 óbitos no trânsito.
+Registros mais recentes do \cite{ref:panoramacnt}, elaborado com a base de dados da Polícia Rodoviária Federal, mostram que acidentes em rodovias federais geram um
 custo de R\$ 16,8 bilhões no ano de 2025. Diante deste panorama, validar virtualmente a conectividade V2X por meio de simulações, utilizando ferramentas como o SUMO,
 pode ser uma etapa crucial para o desenvolvimento e implementação de uma infraestrutura de transporte mais inteligente e segura.
 
@@ -38,49 +38,47 @@ pode ser uma etapa crucial para o desenvolvimento e implementação de uma infra
 
 \section{Justificativa}
 
-A justificativa deste estudo vem com o grande desenvolvimento tecnológico que o setor automotivo nos ultimos anos, que vem desenvolvendo arquiteturas cada vez mais
-complexas, integrando mais ECUs e investindo em desenvolvimento de software. Nesse cenario, a conectividade V2X vem de maneira natural, sendo o pilar para o
-desenvolvimento de sistemas de transporte mais inteligentes e seguros, permitindo a comunicação cooperativa e expandindo a conciência dos veículos sobre o ambiente
+A justificativa deste estudo vem com o grande desenvolvimento tecnológico que o setor automotivo nos últimos anos, que vem desenvolvendo arquiteturas cada vez mais
+complexas, integrando mais ECUs e investindo em desenvolvimento de software. Nesse cenário, a conectividade V2X vem de maneira natural, sendo o pilar para o
+desenvolvimento de sistemas de transporte mais inteligentes e seguros, permitindo a comunicação cooperativa e expandindo a consciência dos veículos sobre o ambiente
 ao redor do motorista. De maneira paralela, a tecnologia também suporta um transito mais eficiente, otimizando o fluxo de tráfego e reduzindo congestionamentos em
 grandes centros urbanos.
 
 Por fim, a simulação virtual se apresenta como uma validação técnica essencial para suportar a teoria deste trabalho. Dado a natureza do desenvolvimento de sistemas
 de transporte inteligente, o uso de ferramentas de alta fidelidade, como o SUMO e Veins, é uma estratégia importante para o \textit{early de-risking}. De acordo
 com \cite{ref:ota}, essa abordagem fundamenta-se na identificação e mitigação de riscos técnicos em fases iniciais do desenvolvimento, permitindo analisar riscos
-sem grandes aportes financeiros para reproduzir a realizada. Assim, a validação inicial assegura a confiabilidade e eficácia do sistema proposto, corrigindo e
+sem grandes aportes financeiros para reproduzir a realidade. Assim, a validação inicial assegura a confiabilidade e eficácia do sistema proposto, corrigindo e
 ajustando o projeto antes de avançar para implementação real, onde os custos e riscos são significativamente maiores.
 
 \section{Definição do Problema}
 
-modelos convencionais são limitados pela visão direta (Line-of-Sight) de radares e câmeras.
-segurança no transito é um desafio global
-
-\begin{alineas}
-    \item Limitação dos sensores convencionais;
-    \item Segurança no trânsito;
-    \item Pergunta orientadora --> Como a tecnologia V2X pode melhorar a segurança e eficiência do transporte?
-\end{alineas}
+A insegurança no trânsito é um problema global, com impactos humanos e econômicos que os sistemas atuais de assistência ao motorista não conseguem mitigar por
+completo devido a limitações técnicas de visão direta (\textit{line of sight}) e alcance dos sensores isolados como câmeras e radares. Diante da incapacidade
+destes dispositivos em detectar perigos ocultos por obstáculos ou em condições adversas, este trabalho busca responder a seguinte questão: Como a tecnologia V2X
+pode elevar os níveis de segurança e eficiência no trânsito ao promover uma maior consciência situacional através da comunicação cooperativa? 
 
 \section{Objetivo Geral}
 
-Descrever a trajetória tecnológica da telemática veicular estudando a evolução dos padrões de conectividade, e gerar uma simulação de fluxo mostrando os benefícios
-do V2X.
+Analisar a evolução tecnológica da telemática veicular e dos padrões de conectividade, visando desenvolver uma simulação de tráfego urbano para quantificar os
+benefícios dos sistemas V2X na mitigação de riscos e otimização do tráfego rodoviário.
 
 \section{Objetivos Específicos}
 
-Alguns objetivos específicos:
+Para alcançar o objetivo geral, os seguintes objetivos específicos foram estabelecidos:
 \begin{alineas}
-    \item Revisão bibliográfica;
-    \item Simulação de transito; 
-    \item Análise dos resultados.
+    \item Revisão bibliográfica sobre o sistema de transporte inteligente e a tecnologia V2X;
+    \item Caracterizar os padrões de comunicação (V2X e DSRC);
+    \item Modelar um cenário de tráfego urbano no SUMO, integrando-o ao OMNeT++ através do framework Veins, possibilitando a comunicação entre veículos; 
+    \item Avaliar, por meio da simulação, o impacto do V2X na redução de colisões e na melhoria da fluidez viária;
+    \item Documentar o processo e apresentar os resultados obtidos durante a simulação.
 \end{alineas}
     
 \section{Estrutura do Trabalho}
 
 O trabalho será estruturado da seguinte forma:
 \begin{alineas}
-    \item Capitulo 2 - Fundamentação teórica;
-    \item Capitulo 3 - Metodologia; 
-    \item Capitulo 4 - Apresentação dos resultados;
-    \item Capitulo 5 - Considerações finais;
+    \item Capítulo 2 - Fundamentação teórica;
+    \item Capítulo 3 - Metodologia; 
+    \item Capítulo 4 - Apresentação dos resultados;
+    \item Capítulo 5 - Considerações finais;
 \end{alineas}
