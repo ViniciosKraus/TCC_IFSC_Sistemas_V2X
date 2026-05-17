@@ -1,28 +1,35 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.4.24)  6 MAY 2026 19:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.4.24)  17 MAY 2026 11:32
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**"g:/My Drive/Acadêmico/IFSC/TCC/IFSC_LATEX_TCC/monografia.tex"
-(g:/My Drive/Acadêmico/IFSC/TCC/IFSC_LATEX_TCC/monografia.tex
+**./monografia.tex
+(monografia.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
 (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/abntex2\abntex2.cls
 Document Class: abntex2 2018/11/24 v-1.9.7 abnTeX2
 (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/memoir\memoir.cls
-Document Class: memoir 2025/11/04 v3.8.4b configurable book, report, article document class
-(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/xpatch\xpatch.sty (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/memoir\memoir.cls
+Document Class: memoir 2025/11/04 v3.8.4b configurable book, report, article do
+cument class
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/xpatch\xpatch.sty
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2026-03-20 L3 programming layer (loader) 
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
 File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count275
 ))
 Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
 Package: xparse 2025-10-09 L3 Experimental document command parser
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count276
 ))
@@ -31,12 +38,13 @@ Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \xlvchars=\skip51
 \@memcnta=\count277
 \c@@memmarkcntra=\count278
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 )
 \trimtop=\skip52
 \trimedge=\skip53
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/memoir\mem12.clo
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/memoir\mem12.clo
 File: mem12.clo 2022/07/29 v0.5 memoir class 12pt size option
 )
 \binding=\skip54
@@ -126,7 +134,8 @@ File: mem12.clo 2022/07/29 v0.5 memoir class 12pt size option
 \beforePoemTitleskip=\skip114
 \midPoemTitleskip=\skip115
 \afterPoemTitleskip=\skip116
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \col@sep=\dimen155
 \ar@mcellbox=\box53
@@ -135,11 +144,14 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \extratabsurround=\skip117
 \backup@length=\skip118
 \ar@cellbox=\box54
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/tools\dcolumn.sty
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/tools\dcolumn.sty
 Package: dcolumn 2025/10/21 v1.06 decimal alignment package (DPC)
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/tools\delarray.sty
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/tools\delarray.sty
 Package: delarray 2014/10/28 v1.01 array delimiter package (DPC)
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
 Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@col@width=\dimen157
 \TX@old@table=\dimen158
@@ -148,7 +160,8 @@ Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@delta=\dimen161
 \TX@cols=\count297
 \TX@ftn=\toks19
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen162
 \lightrulewidth=\dimen163
@@ -202,22 +215,31 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \afterepigraphskip=\skip131
 \epigraphwidth=\skip132
 \epigraphrule=\skip133
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2026-01-29 v2.58 Cross-referencing by name of section
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+))
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks21
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )))
 \c@section@level=\count308
@@ -299,7 +321,8 @@ Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
 \verbatimindent=\skip182
 \verbatim@out=\write3
  (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/base\shortvrb.sty
-Package: shortvrb 2024/12/25 v3.0q Standard LaTeX documentation package V3 (FMi)
+Package: shortvrb 2024/12/25 v3.0q Standard LaTeX documentation package V3 (FMi
+)
 )
 \bvboxsep=\skip183
 \c@memfbvline=\count314
@@ -361,24 +384,37 @@ Package tocbibind [2008/07/23] emulated by memoir.
 Package tocloft [2008/07/23] emulated by memoir.
 Package tocvsec2 [2008/07/23] emulated by memoir.
 Package verse [2008/07/23] emulated by memoir.
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/textcase\textcase.sty
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/textcase\textcase.sty
 Package: textcase 2025/02/16 v1.05 Text only upper/lower case changing (DPC)
 Package textcase Info: Defining Legacy names on input line 20.
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2026-01-29 v7.01p Hypertext links for LaTeX
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+))
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.s
+ty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
 )
 \@linkdim=\dimen195
 \Hy@linkcounter=\count335
@@ -404,16 +440,21 @@ Package hyperref Info: Backreferencing OFF on input line 4221.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4468.
 \c@Hy@tempcnt=\count338
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4807.
 \XeTeXLinkMargin=\dimen196
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
 ))
 \Fld@menulength=\count339
 \Field@Width=\dimen197
@@ -430,40 +471,59 @@ Package hyperref Info: PDF/A mode OFF on input line 6114.
 \c@Hfootnote=\count342
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2026-01-29 v7.01p Hyperref driver for pdfTeX
 \Fld@listcount=\count343
 \c@bookmark@seq@number=\count344
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
 )
 \Hy@SectionHShift=\skip191
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/memoir\memhfixc.sty
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/memoir\memhfixc.sty
 Package: memhfixc 2025/09/16 v1.24 hyperref package fixes for memoir class
 \c@memhycontfloat=\count345
 \c@mem@Hpagenote=\count346
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
-File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
+File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO
+)
 \BKM@id=\count347
 )) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2026/03/24 v26.5 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
+Package: babel 2026/03/24 v26.5 The multilingual framework for LuaLaTeX, pdfLaT
+eX and XeLaTeX
 \babel@savecnt=\count348
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2078.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2080.
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2082.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2083.
-LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2084.
-LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2086.
-LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2111.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
+ne 2078.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
+ne 2080.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
+e 2082.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
+e 2083.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
+on input line 2084.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
+on input line 2086.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
+on input line 2111.
 \U@D=\dimen199
 \l@unhyphenated=\language79
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read3
 \bbl@dirlevel=\count349
 Package babel Info: Configuration files are deprecated, as
@@ -474,11 +534,22 @@ Package babel Info: Configuration files are deprecated, as
 * Local config file bblopts.cfg used
 *
 (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
-File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel-english.tex) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/fr\babel-french.tex) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/es\babel-spanish.tex) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/invalid\babel-brazil.tex)
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel
+-english.tex)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/fr\babel
+-french.tex)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/es\babel
+-spanish.tex)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/invalid\
+babel-brazil.tex)
 Package babel Info: Importing font and identification data for english
 (babel)             from babel-en.ini. Reported on input line 4330.
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.ldf
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.l
+df
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
@@ -489,9 +560,13 @@ Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 )
 Package babel Info: Importing font and identification data for french
 (babel)             from babel-fr.ini. Reported on input line 4330.
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\french.ldf
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\french.l
+df
 Language: french 2025-08-15 v4.0e French support from the babel system
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\french3.ldf
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\french3.
+ldf
 Language: french 2025-08-15 v3.7e French support from the babel system
 \FB@stdchar=\count350
 Package babel Info: Making : an active character on input line 273.
@@ -517,7 +592,9 @@ Package babel Info: Making ? an active character on input line 276.
 ))
 Package babel Info: Importing font and identification data for spanish
 (babel)             from babel-es.ini. Reported on input line 4330.
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.ldf
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.l
+df
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
 \es@quottoks=\toks26
 \es@quotdepth=\count357
@@ -533,11 +610,15 @@ Package babel Warning: Name 'brazil' is deprecated.
 
 Package babel Info: Importing font and identification data for brazil
 (babel)             from babel-pt-BR.ini. Reported on input line 4330.
-(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/babel-portuges\brazilian.ldf
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/babel-portuges\brazilia
+n.ldf
 Language: portuges 2026/01/24 v1.2u Portuguese support from the babel system
 Package babel Info: Hyphen rules for 'brazil' set to \l@portuguese
 (babel)             (\language56). Reported on input line 100.
-)) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+))
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip192
 \enit@outerparindent=\dimen265
@@ -545,7 +626,8 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 \enit@inbox=\box58
 \enit@count@id=\count358
 \enitdp@description=\count359
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
 \calc@Acount=\count360
 \calc@Bcount=\count361
@@ -603,9 +685,11 @@ Class memoir Warning: \settocpreprocessor is marked deprecated and will be
 Package: conf-ifsc 
  (conf-pacotes.sty
 Package: conf-pacotes 
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\helvet.sty
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\helvet.sty
 Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/sfmath\sfmath.sty
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/sfmath\sfmath.sty
 Package: sfmath 2007/08/27 v0.8 sans serif maths
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/cmr/m/n --> OT1/phv/m/n on input line 329.
@@ -642,10 +726,12 @@ LaTeX Font Info:    Redeclaring math symbol \Psi on input line 431.
 LaTeX Font Info:    Redeclaring math symbol \Omega on input line 432.
 \symSFMathUpGreek=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `SFMathUpGreek' in version `normal'
+
 (Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 436.
 LaTeX Font Info:    Overwriting symbol font `SFMathUpGreek' in version `bold'
 (Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 437.
 LaTeX Font Info:    Overwriting math alphabet `\mathnormal' in version `normal'
+
 (Font)                  OML/cmm/m/it --> OT1/phv/m/sl on input line 446.
 LaTeX Font Info:    Overwriting math alphabet `\mathnormal' in version `bold'
 (Font)                  OML/cmm/b/it --> OT1/phv/bx/sl on input line 447.
@@ -667,50 +753,69 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 (Font)                  OT1/cmss/bx/n --> OT1/phv/bx/n on input line 459.
 LaTeX Font Info:    Overwriting math alphabet `\mathsl' in version `bold'
 (Font)                  OT1/phv/m/sl --> OT1/phv/bx/sl on input line 466.
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 116.
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 11
+6.
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 12.0pt on input line 116.
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks28
 \inpenc@posthook=\toks29
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage.sty
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage.sty
 Package: lastpage 2025/08/14 v2.1h lastpage: 2.09 or 2e? (HMM)
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage2e.sty
-Package: lastpage2e 2025/08/14 v2.1h Decide which 2e lastpage version to use (HMM)
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpagemodern.sty
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpage2e.sty
+Package: lastpage2e 2025/08/14 v2.1h Decide which 2e lastpage version to use (H
+MM)
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/lastpage\lastpagemodern
+.sty
 Package: lastpagemodern 2025-08-14 v2.1h Refers to last page's name (HMM; JPG)
 \c@lastpagecount=\count371
 ) 
-)) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
+))
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
 Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
 Package: color 2025/01/14 v1.3e Standard LaTeX Color (DPC)
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 149.
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
 )
 \Gin@req@height=\dimen268
 \Gin@req@width=\dimen269
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
 \lst@mode=\count372
 \lst@gtempboxa=\box59
 \lst@token=\toks30
@@ -723,18 +828,20 @@ Package graphics Info: Driver file: pdftex.def on input line 106.
 \lst@newlines=\count376
 \lst@lineno=\count377
 \lst@maxwidth=\dimen273
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
 File: lstpatch.sty 2025/11/14 1.11b (Carsten Heinz)
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2025/11/14 1.11b (Carsten Heinz)
 \c@lstnumber=\count378
 \lst@skipnumbers=\count379
 \lst@framebox=\box60
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2025/11/14 1.11b listings configuration
 ))
 Package: listings 2025/11/14 1.11b (Carsten Heinz)
-
 ==> First Aid for listings.sty no longer applied!
     Expected:
         2024/09/23 1.10c (Carsten Heinz)
@@ -748,14 +855,17 @@ Package: amsmath 2025/07/09 v2.17z AMS math features
 For additional information on amsmath, use the `?' option.
 (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks31
 \ex@=\dimen274
-)) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+))
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen275
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count380
@@ -805,9 +915,11 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks35
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen283
 \captionmargin=\dimen284
@@ -819,8 +931,11 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen290
 Package caption Info: memoir document class detected.
 Package caption Info: french babel package is loaded.
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption-memoir.sto
-File: caption-memoir.sto 2023/09/08 v2.2c Adaption of the caption package to the memoir document class (AR)
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption-memoir.
+sto
+File: caption-memoir.sto 2023/09/08 v2.2c Adaption of the caption package to th
+e memoir document class (AR)
 ))
 \c@caption@flags=\count392
 \c@continuedfloat=\count393
@@ -829,7 +944,8 @@ Package caption Info: changepage package is loaded.
 \caption@adjustwidth@linewidth=\dimen292
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
 Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
 Package caption Info: New subtype `subfigure' on input line 238.
 \c@subfigure=\count394
@@ -837,32 +953,41 @@ Package caption Info: New subtype `subtable' on input line 238.
 \c@subtable=\count395
 ) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/acronym\acronym.sty
 Package: acronym 2025/01/17 v1.50 Support for acronyms (Tobias Oetiker)
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/bigfoot\suffix.sty
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/bigfoot\suffix.sty
 Package: suffix 2006/07/15 1.5a Variant command support
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/xstring\xstring.sty
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/xstring\xstring.tex
 \xs_counta=\count396
 \xs_countb=\count397
 )
 Package: xstring 2023/08/22 v1.86 String manipulations (CT)
 )
 \AC@clearlist=\toks36
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
+) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
+eys2e.sty
 Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \g__lipsum_par_int=\count398
 \l__lipsum_a_int=\count399
 \l__lipsum_b_int=\count400
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex)) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count401
 \float@exts=\toks37
 \float@box=\box63
 \@float@everytoks=\toks38
 \@floatcapt=\box64
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
 Package: pdfpages 2026/03/30 v0.6h Insert pages of external PDF documents (AM)
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
 Package: eso-pic 2025/12/10 v3.0d eso-pic (RN)
 \ESO@tempdima=\dimen293
 \ESO@tempdimb=\dimen294
@@ -870,7 +995,8 @@ Package: eso-pic 2025/12/10 v3.0d eso-pic (RN)
 \AM@pagewidth=\dimen295
 \AM@pageheight=\dimen296
 \AM@fboxrule=\dimen297
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
 File: pppdftex.def 2026/03/30 v0.6h Pdfpages driver for pdfTeX (AM)
 )
 \pdfpages@includegraphics@status=\count402
@@ -951,33 +1077,41 @@ Package: multicol 2025/10/21 v2.0b multicolumn formatting (FMi)
 \colbreak@box=\box112
 \mc@col@check@num=\count414
 \g__mc_curr_col_int=\count415
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip263
 \multirow@cntb=\count416
 \multirow@dima=\skip264
 \bigstrutjot=\dimen307
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\backref.sty
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\backref.sty
 Package: backref 2025-06-21 v1.45 Bibliographical back referencing
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/abntex2\abntex2cite.sty
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/abntex2\abntex2cite.sty
 Package: abntex2cite 2018/11/24 v-1.9.7 abnTeX2
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/abntex2\abntex2abrev.sty)
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/abntex2\abntex2abrev.st
+y)
 \minimumbiblabelwidth=\skip265
 \ABCIauxlen=\skip266
 \c@ABCIaux=\count417
 \c@ABCImax=\count418
  (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/relsize\relsize.sty
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/relsize\relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
 \biblabelsep=\skip267
 LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
 \ABCItoken=\toks42
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/ulem\ulem.sty
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/ulem\ulem.sty
 \UL@box=\box113
 \UL@hyphenbox=\box114
 \UL@skip=\skip268
@@ -988,9 +1122,11 @@ LaTeX Info: Redefining \cite on input line 618.
 \ULC@box=\box115
 Package: ulem 2019/11/18
 \ULdepth=\dimen310
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/siunitx\siunitx.sty
 Package: siunitx 2026-04-09 v3.5.3 A comprehensive (SI) units package
 \l__siunitx_number_uncert_offset_int=\count420
 \l__siunitx_number_exponent_fixed_int=\count421
@@ -1004,8 +1140,11 @@ Package: siunitx 2026-04-09 v3.5.3 A comprehensive (SI) units package
 \l__siunitx_number_group_min_int=\count429
 \l__siunitx_number_group_minimum_int=\count430
 \l__siunitx_compound_count_int=\count431
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/translations\translations.sty
-Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/translations\translatio
+ns.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
 )
 \l__siunitx_table_tmp_box=\box116
 \l__siunitx_table_tmp_dim=\dimen311
@@ -1033,12 +1172,13 @@ Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 \symrsfs=\mathgroup8
 ) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
 LaTeX Info: Redefining \color on input line 762.
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -1052,16 +1192,25 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
 ) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool.sty
 Package: datatool 2025/12/04 v3.4.3 (NLCT)
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/xfor\xfor.sty
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/xfor\xfor.sty
 Package: xfor 2009/02/05 v1.05 (NLCT)
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/tracklang\tracklang.sty
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/tracklang\tracklang.sty
 Package: tracklang 2025/03/11 v1.6.6 (NLCT) Track Languages
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/tracklang\tracklang.tex)
-Package tracklang Info: Tracking dialect `english' (language `english') on input line 53.
-Package tracklang Info: Tracking dialect `french' (language `french') on input line 53.
-Package tracklang Info: Tracking dialect `spanish' (language `spanish') on input line 53.
-Package tracklang Info: Tracking dialect `brazil' (language `portuges') on input line 53.
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-base.sty
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/tracklang\tracklang.t
+ex)
+Package tracklang Info: Tracking dialect `english' (language `english') on inpu
+t line 53.
+Package tracklang Info: Tracking dialect `french' (language `french') on input 
+line 53.
+Package tracklang Info: Tracking dialect `spanish' (language `spanish') on inpu
+t line 53.
+Package tracklang Info: Tracking dialect `brazil' (language `portuges') on inpu
+t line 53.
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-base.
+sty
 Package: datatool-base 2025/12/04 v3.4.3 (NLCT)
 \l__datatool_tmpa_int=\count435
 \l__datatool_tmpb_int=\count436
@@ -1071,7 +1220,9 @@ Package: datatool-base 2025/12/04 v3.4.3 (NLCT)
 \l__datatool_tmp_datatype_int=\count440
 \l__datatool_tmpa_dim=\dimen316
 \l__datatool_tmpb_dim=\dimen317
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-l3fp.def
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-l3fp.
+def
 File: datatool-l3fp.def 2025/12/04 v3.4.3 (NLCT)
 )
 \@dtl@toks=\toks44
@@ -1079,7 +1230,9 @@ File: datatool-l3fp.def 2025/12/04 v3.4.3 (NLCT)
 \dtl@tmplength=\skip269
 \l__datatool_measure_box=\box124
 \dtl@sortresult=\count442
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-utf8.ldf
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/datatool\datatool-utf8.
+ldf
 File: datatool-utf8.ldf 2025/12/04 v3.4.3 (NLCT)
 )
 \@dtl@datatype=\count443
@@ -1099,19 +1252,24 @@ File: datatool-utf8.ldf 2025/12/04 v3.4.3 (NLCT)
 \@dtl@foreach@level=\count457
 
 
-Package tracklang Warning: No `datatool' support for dialect `english'  on input line 9924.
+Package tracklang Warning: No `datatool' support for dialect `english'  on inpu
+t line 9924.
 
 
-Package tracklang Warning: No `datatool' support for dialect `french'  on input line 9924.
+Package tracklang Warning: No `datatool' support for dialect `french'  on input
+ line 9924.
 
 
-Package tracklang Warning: No `datatool' support for dialect `spanish'  on input line 9924.
+Package tracklang Warning: No `datatool' support for dialect `spanish'  on inpu
+t line 9924.
 
 
-Package tracklang Warning: No `datatool' support for dialect `brazil'  on input line 9924.
+Package tracklang Warning: No `datatool' support for dialect `brazil'  on input
+ line 9924.
 
 
-Package tracklang Warning: No `datatool' support for dialect `brazil'  on input line 9924.
+Package tracklang Warning: No `datatool' support for dialect `brazil'  on input
+ line 9924.
 
 \dtl@codeA=\count458
 \dtl@codeB=\count459
@@ -1165,11 +1323,13 @@ Package tracklang Warning: No `datatool' support for dialect `brazil'  on input 
 \__datatool_sort_data_grpcol_int=\count489
 \dtl@omitlines=\count490
 \l__datatool_line_int=\count491
-)) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/mfirstuc\mfirstuc.sty
+))
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/mfirstuc\mfirstuc.sty
 Package: mfirstuc 2025/04/03 v2.09 (NLCT)
 \@glsmfirst=\toks62
 \@glsmrest=\toks63
-) (conf-comandos.sty
+)
+(conf-comandos.sty
 Package: conf-comandos 
 )
 
@@ -1182,9 +1342,11 @@ Package siunitx Info: Option "detect-all" has been deprecated in this release.
 (siunitx)             as a replacement.
 
 \imagewidth=\skip270
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2026/03/07 v6.0 Page Geometry
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count492
@@ -1199,24 +1361,28 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen324
 \Gm@layoutvoffset=\dimen325
 \Gm@dimlist=\toks64
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
 Package hyperref Info: Option `colorlinks' set `true' on input line 233.
 \monografia@idxfile=\write4
 \openout4 = `monografia.idx'.
-
 
 Writing index file monografia.idx 
 \cftbeforelstlistingskip=\skip271
 \cftlstlistingindent=\skip272
 \cftlstlistingnumwidth=\skip273
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/trivfloat\trivfloat.sty
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/trivfloat\trivfloat.sty
 Package: trivfloat 2009/04/23 v1.4 Quick floats in LaTeX
 \c@tfl@float@cnt=\count495
 LaTeX Info: Redefining \tfl@uppercase on input line 223.
 )
 \@float@every@quadro=\toks65
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/boxhandler\boxhandler.sty
-Package: boxhandler 2012/10/18 v1.30 Tools for Optimizing Captions, Presentation, and Placement of Tables and Figures
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/boxhandler\boxhandler.s
+ty
+Package: boxhandler 2012/10/18 v1.30 Tools for Optimizing Captions, Presentatio
+n, and Placement of Tables and Figures
  (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/pbox\pbox.sty
 Package: pbox 2011/12/07 v1.2 Dynamic parboxes
 \pb@xlen=\skip274
@@ -1251,10 +1417,12 @@ Package: pbox 2011/12/07 v1.2 Dynamic parboxes
 \c@lotInvocations=\count506
 \c@lotPrints=\count507
 \hyper@shift=\skip292
-) (monografia.aux
+)
+(monografia.aux
 Package babel Info: 'brazil' activates 'portuges' shorthands.
 (babel)             Reported on input line 21.
- (tex/cap1.aux) (tex/cap2.aux) (tex/cap3.aux) (tex/cap4.aux) (tex/cap5.aux) (tex/Apendices.aux) (tex/Anexos.aux))
+ (tex/cap1.aux) (tex/cap2.aux) (tex/cap3.aux) (tex/cap4.aux)
+(tex/cap5.aux) (tex/Apendices.aux) (tex/Anexos.aux))
 \openout1 = `monografia.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 117.
@@ -1279,7 +1447,9 @@ Package hyperref Info: Link coloring ON on input line 117.
 LaTeX Info: Redefining \degres on input line 117.
 \myptabbox=\box125
 \myptabboxwidth=\skip293
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count508
 \scratchdimen=\dimen326
@@ -1292,40 +1462,66 @@ LaTeX Info: Redefining \degres on input line 117.
 \MPnumerator=\count512
 \makeMPintoPDFobject=\count513
 \everyMPtoPDFconversion=\toks67
-) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+)
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 \c@lstlisting=\count514
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
-Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nom
+etadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-)) (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-brazil.trsl
-File: translations-basic-dictionary-brazil.trsl (brazil translation file `translations-basic-dictionary')
+))
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
+slations-basic-dictionary-brazil.trsl
+File: translations-basic-dictionary-brazil.trsl (brazil translation file `trans
+lations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `brazil'. on input line 117.
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-spanish.trsl
-File: translations-basic-dictionary-spanish.trsl (spanish translation file `translations-basic-dictionary')
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `brazil'. on input line 117.
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
+slations-basic-dictionary-spanish.trsl
+File: translations-basic-dictionary-spanish.trsl (spanish translation file `tra
+nslations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `spanish'. on input line 117.
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-french.trsl
-File: translations-basic-dictionary-french.trsl (french translation file `translations-basic-dictionary')
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `spanish'. on input line 117.
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
+slations-basic-dictionary-french.trsl
+File: translations-basic-dictionary-french.trsl (french translation file `trans
+lations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `french'. on input line 117.
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
-File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `french'. on input line 117.
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\tran
+slations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 117.
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `english'. on input line 117.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1366,9 +1562,12 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 12.0pt on input line 130.
 [1
 
-{C:/Users/vinic/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/vinic/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 132.
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1phv.fd
+{C:/Users/vinic/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/vini
+c/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 1
+32.
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
 LaTeX Font Info:    Font shape `OT1/phv/m/n' will be
@@ -1383,11 +1582,14 @@ LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
 (Font)              scaled to size 8.0pt on input line 132.
 LaTeX Font Info:    Font shape `OT1/phv/m/sl' will be
 (Font)              scaled to size 6.0pt on input line 132.
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 132.
- (C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 13
+2.
+
+(C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex/latex/jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.132 
@@ -1413,7 +1615,8 @@ LaTeX Font Info:    Font shape `T1/phv/b/sc' will be
 
 ]
 
-Package float Warning: Can't redefine counter variable for quadro. on input line 254.
+Package float Warning: Can't redefine counter variable for quadro. on input lin
+e 254.
 
 \c@loqdepth=\count516
 \cftbeforequadroskip=\skip294
@@ -1436,7 +1639,8 @@ LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
  [10
 
 
-] (monografia.toc) [11
+]
+(monografia.toc) [11
 
 
 ]
@@ -1457,49 +1661,50 @@ LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
 (Font)              scaled to size 10.0pt on input line 64.
 Package babel Info: 'brazil' activates 'portuges' shorthands.
 (babel)             Reported on input line 64.
- [13]) [14]
+ [13] [14]) [15]
 \openout2 = `tex/cap2.aux'.
 
  (tex/cap2.tex
 Cap\'{\i }tulo 2.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.95pt on input line 18.
-LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 10.95pt on input line 30.
-[15
-
-
-
-
-]
+(Font)              scaled to size 10.0pt on input line 32.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.0pt on input line 60.
-<figuras/motor.jpg, id=204, 633.11531pt x 306.39468pt>
-File: figuras/motor.jpg Graphic file (type jpg)
-<use figuras/motor.jpg>
-Package pdftex.def Info: figuras/motor.jpg  used on input line 61.
-(pdftex.def)             Requested size: 284.89925pt x 137.87633pt.
-<figuras/diagrama.jpg, id=207, 373.395pt x 249.18094pt>
+(Font)              scaled to size 10.95pt on input line 32.
+<figuras/audi_A8_sensors_and_cameras.jpg, id=205, 1927.2pt x 1363.0925pt>
+File: figuras/audi_A8_sensors_and_cameras.jpg Graphic file (type jpg)
+<use figuras/audi_A8_sensors_and_cameras.jpg>
+Package pdftex.def Info: figuras/audi_A8_sensors_and_cameras.jpg  used on input
+ line 33.
+(pdftex.def)             Requested size: 386.96027pt x 273.67442pt.
+LaTeX Font Info:    Font shape `T1/phv/m/n' will be
+(Font)              scaled to size 10.95pt on input line 36.
+[16
+
+
+
+
+] [17 <./figuras/audi_A8_sensors_and_cameras.jpg>]
+<figuras/diagrama.jpg, id=224, 373.395pt x 249.18094pt>
 File: figuras/diagrama.jpg Graphic file (type jpg)
 <use figuras/diagrama.jpg>
-Package pdftex.def Info: figuras/diagrama.jpg  used on input line 99.
+Package pdftex.def Info: figuras/diagrama.jpg  used on input line 117.
 (pdftex.def)             Requested size: 168.0262pt x 112.13037pt.
- [16 <./figuras/motor.jpg>]) [17 <./figuras/diagrama.jpg>]
+ [18]) [19 <./figuras/diagrama.jpg>]
 \openout2 = `tex/cap3.aux'.
 
  (tex/cap3.tex
 Cap\'{\i }tulo 3.
-[18
+[20
 
 
 
 
-]) [19]
+]) [21]
 \openout2 = `tex/cap4.aux'.
 
  (tex/cap4.tex
 Cap\'{\i }tulo 4.
-) [20
+) [22
 
 
 
@@ -1509,7 +1714,7 @@ Cap\'{\i }tulo 4.
 
  (tex/cap5.tex
 Cap\'{\i }tulo 5.
-) [21
+) [23
 
 
 
@@ -1518,23 +1723,23 @@ Cap\'{\i }tulo 5.
 \tf@brf=\write5
 \openout5 = `monografia.brf'.
 
- [22
+ [24
 
 
 ]
 bibitemlist
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <12> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 16.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 15.
 LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
-(Font)              scaled to size 12.0pt on input line 16.
-) [23
+(Font)              scaled to size 12.0pt on input line 15.
+) [25
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\uppercase' on input line 337.
 
-[24
+[26
 
 
 ]
@@ -1542,19 +1747,19 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
  (tex/Apendices.tex
 AP\^ENDICE A.
-[25
+[27
 
 
 ]
 AP\^ENDICE B.
-) [26
+) [28
 
 ]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\uppercase' on input line 345.
 
-[27
+[29
 
 
 
@@ -1564,12 +1769,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
  (tex/Anexos.tex
 ANEXO A.
-[28
+[30
 
 
 ]
 ANEXO B.
-) [29
+) [31
 
 ]
 
@@ -1593,7 +1798,8 @@ See the caption package documentation for explanation.
 
 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
-(monografia.aux (tex/cap1.aux) (tex/cap2.aux) (tex/cap3.aux) (tex/cap4.aux) (tex/cap5.aux) (tex/Apendices.aux) (tex/Anexos.aux))
+(monografia.aux (tex/cap1.aux) (tex/cap2.aux) (tex/cap3.aux) (tex/cap4.aux)
+(tex/cap5.aux) (tex/Apendices.aux) (tex/Anexos.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
@@ -1604,21 +1810,27 @@ Package rerunfilecheck Warning: File `monografia.brf' has changed.
 (rerunfilecheck)                Rerun to get bibliographical references right.
 
 Package rerunfilecheck Info: Checksums for `monografia.brf':
-(rerunfilecheck)             Before: 3C88A0E8E1B7CBEA97D9FA5B49C91085;407
-(rerunfilecheck)             After:  CAD8359939CD821F27B020CAFCD02959;407.
+(rerunfilecheck)             Before: D81F3B8D3771005FD5D02E7BC407AE1E;511
+(rerunfilecheck)             After:  4F8FC816E3A95B3A1E9AD241CBD02503;511.
  ) 
 Here is how much of TeX's memory you used:
- 35037 strings out of 467690
- 721330 string characters out of 5414966
- 1257397 words of memory out of 5000000
- 63445 multiletter control sequences out of 15000+600000
+ 35048 strings out of 467690
+ 721542 string characters out of 5414966
+ 1257609 words of memory out of 5000000
+ 63453 multiletter control sequences out of 15000+600000
  672153 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,12n,120p,863b,1320s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/vinic/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/vinic/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/vinic/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/vinic/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb><C:/Users/vinic/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/vinic/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on monografia.pdf (30 pages, 222709 bytes).
+ 99i,12n,120p,816b,1320s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/vinic/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmmi12.pfb><C:/Users/vinic/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb><C:/Users/vinic/AppData/Local/Programs/MiKTeX/fonts/type1/u
+rw/helvetic/uhvb8a.pfb><C:/Users/vinic/AppData/Local/Programs/MiKTeX/fonts/type
+1/urw/helvetic/uhvbo8a.pfb><C:/Users/vinic/AppData/Local/Programs/MiKTeX/fonts/
+type1/urw/helvetic/uhvr8a.pfb><C:/Users/vinic/AppData/Local/Programs/MiKTeX/fon
+ts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on monografia.pdf (32 pages, 883480 bytes).
 PDF statistics:
- 461 PDF objects out of 1000 (max. 8388607)
- 128 named destinations out of 1000 (max. 500000)
- 307 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 485 PDF objects out of 1000 (max. 8388607)
+ 133 named destinations out of 1000 (max. 500000)
+ 315 words of extra memory for PDF output out of 10000 (max. 10000000)
 

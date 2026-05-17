@@ -5,6 +5,14 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v<VERSION> }
 
+\bibitem[{BCC Research} 2024]{ref:bccresearch}
+\abntrefinfo{{BCC Research}}{{BCC Research}}{2024}
+{{BCC Research}. \emph{\textbf{Automotive Electronics Market Projected to Surge
+  to \$508 Billion by 2028}}. 2024.
+Disponível em:
+  https://www.bccresearch.com/pressroom/eng/automotive-electronics-market-projected-to-surge-to-508-billion-by-2028.
+  Acesso em: 17 maio 2026.}
+
 \bibitem[{CONFEDERAÇÃO NACIONAL DO TRANSPORTE (CNT)} 2026]{ref:panoramacnt}
 \abntrefinfo{{CONFEDERAÇÃO NACIONAL DO TRANSPORTE (CNT)}}{{CONFEDERAÇÃO
   NACIONAL DO TRANSPORTE (CNT)}}{2026}

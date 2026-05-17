@@ -5,30 +5,42 @@ embarcados veiculares, e a tecnologia de comunicação veículo-a-tudo (V2X). Se
 construir uma base teórica sólida para desenvolver a simulação de tráfego e a subsequente análise dos benefícios da conectividade cooperativa na
 segurança e eficiência do trafego urbano.
 
+\section{Fundamentos da Eletrônica Veicular}
+
+O mercado automotivo global na atualidade apresenta grande parte da competitividade e diferenciação entre os fabricantes quando o assunto é a eletrônica
+integrada nos veículos. Um estudo publicado por \cite{ref:bccresearch} realizou a análise da cadeia de suprimentos e levantou dados sobre o crescimento
+do mercado de eletrônicos na industria automotiva, onde os componentes eletrônicos já representam cerca de 30\% do valor valor total de fabricação de um
+novo veículo movido a motores de combustão interna. Com a consolidação de novas tecnologias de conectividade, direção autônoma e eletrificação, projeta-se
+que a eletrônica atinja uma participação de 50\% do valor total de fabricação de um veículo a combustão e chegando a 70\% em veículos elétricos (EVs).
+
+
 \section{Evolução da Eletrônica e Sistemas Embarcados}
 
 A indústria automotiva tem passado por uma transformação significativa nas últimas décadas, tornando-se significativamente mais intensiva em sistemas
 computacionais e softwares do que em sistemas mecânicos. Enquanto historicamente o desenvolvimento era dominado pela engenharia mecânica, hoje a parte
 eletrônica e de software se tornaram o principal motor de inovação no setor automotivo. Essa transformação se iniciou por volta de 1970, com a introdução
-da Unidade de Controle Eletrônico (ECU), que alteraram as lógicas de comando das funcionalidades veículares.  
+da Unidade de Controle Eletrônico (ECU), que alterou as lógicas de comando das funcionalidades veículares.  
 
-\begin{quadro}[h]
-\centering
+Veículos mais modernos apresentam um sistemas embarcados cada vez mais complexos, integrando uma variedade de radares, sensores e câmeras para aquisição de
+dados. Como ilustrado na Figura \ref{fig:audi_a8}, o Audi A8 integra diversos componentes eletrônicos, que trabalham de forma conjunta, oferecendo ao motorista
+funções avançadas de assistência à condução e segurança. Essa diversidade de dispositivos demonstra que a eletrônica se tornou algo fundamental para os veículos
+atuais, trazendo tecnologias inovadoras ao mercado, como o sistema de direção autônoma e a conectividade veicular (V2X), que serão abordados posteriormente 
+neste capítulo.
 
-\caption{Tipos de energia analisados}
-\begin{tabular}{|c|c|}
-\hline
-\textbf{Ano} & \textbf{Tipos de energia} \\ \hline
-2017         & Mecânica                  \\ \hline
-2018         & Térmica                   \\ \hline
-2019         & Elétrica                  \\ \hline
-2020         & Química                   \\ \hline
-2021         & Atômica                   \\ \hline
-\end{tabular}
-\label{quadro1}
-\\
-\small{Fonte: Elaboração própria (2021).} 
-\end{quadro}
+\begin{figure}[H]
+    \centering
+    \caption{Sensores e Câmeras do Audi A8}
+    \includegraphics[width=0.85\linewidth]{figuras/audi_A8_sensors_and_cameras.jpg}
+    \label{fig:audi_a8}
+    \par\smallskip
+    \small Fonte: Audi (2019).
+\end{figure}
+
+Como mencionado por \cite{ref:hodel} em seu trabalho sobre testes para software em sistemas embarcados automotivos, o setor está sendo impulsionado por
+tecnologias como a eletrificação, a Internet das Coisas (IoT) e a automação, que além de necessitarem uma integração entre os subsistemas internos do veículo,
+também necessitam uma comunicação com infraestruturas externas. Como esse nível de integração, fundamentamos a transição para um Sistema de Transporte Inteligente
+(ITS), permitindo que o meio de transporte não sejam apenas limitados ao hardware instalado no veículo, mas também possam se comunicar com outros veículos e com
+a infraestrutura urbana ao seu redor através da conectividade V2X.
 
 \section{Tecnologia de Comunicação Veicular (V2X)}
 
@@ -51,20 +63,9 @@ Texto texto texto texto texto texto texto texto texto texto texto texto texto te
 
 \subsubsection{Subtítulo Quaternário}
 
-Texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto  (conforme exposto na Figura \ref{fig:motor}).
+Texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto  (conforme exposto na Figura \ref{fig:audi_a8}).
 
-
-
-    \begin{figure}[H]
-    	\centering
-    	\caption{Motor Weg W22}
-    	\includegraphics[scale=0.45]{figuras/motor.jpg}
-    	\label{fig:motor}
-    	\\
-        \vspace{-0.8cm}\hspace{-7cm}\small{Fonte: WEG (2014).} 
-    \end{figure}
-    
-    Texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto conforme indica a Tabela \ref{tabela1}.
+Texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto conforme indica a Tabela \ref{tabela1}.
 
     
 
@@ -91,6 +92,23 @@ Ano  & Produção (1000 t) \\ \ChangeRT{2pt}
     Texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto 
     Texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto como evidencia a Figura  \ref{fig:diagrama}.
     
+\begin{quadro}[h]
+\centering
+
+\caption{Tipos de energia analisados}
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Ano} & \textbf{Tipos de energia} \\ \hline
+2017         & Mecânica                  \\ \hline
+2018         & Térmica                   \\ \hline
+2019         & Elétrica                  \\ \hline
+2020         & Química                   \\ \hline
+2021         & Atômica                   \\ \hline
+\end{tabular}
+\label{quadro1}
+\\
+\small{Fonte: Elaboração própria (2021).} 
+\end{quadro}
     
     
     \begin{figure}[H]

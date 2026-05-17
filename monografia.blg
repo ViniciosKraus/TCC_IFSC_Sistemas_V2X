@@ -12,7 +12,7 @@ A level-1 auxiliary file: tex/cap4.aux
 Reallocating 'name_of_file' (item size: 1) to 13 items.
 A level-1 auxiliary file: tex/cap5.aux
 Reallocating 'name_of_file' (item size: 1) to 12 items.
-Illegal, another \bibdata command---line 65 of file monografia.aux
+Illegal, another \bibdata command---line 66 of file monografia.aux
  : \bibdata
  :         {abntex2-options,referencias}
 I'm skipping whatever remains of this command
@@ -43,45 +43,45 @@ Reallocating 'global_strs' (item size: 1) to 4000000 items.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 7 entries,
+You've used 8 entries,
             6712 wiz_defined-function locations,
-            1250 strings with 11080 characters,
-and the built_in function-call counts, 5377 in all, are:
-= -- 558
-> -- 122
+            1254 strings with 11346 characters,
+and the built_in function-call counts, 5958 in all, are:
+= -- 598
+> -- 137
 < -- 1
-+ -- 91
-- -- 40
-* -- 315
-:= -- 801
-add.period$ -- 32
-call.type$ -- 7
-change.case$ -- 52
-chr.to.int$ -- 7
-cite$ -- 7
-duplicate$ -- 240
-empty$ -- 431
-format.name$ -- 185
-if$ -- 1287
++ -- 96
+- -- 45
+* -- 349
+:= -- 884
+add.period$ -- 36
+call.type$ -- 8
+change.case$ -- 59
+chr.to.int$ -- 8
+cite$ -- 8
+duplicate$ -- 269
+empty$ -- 488
+format.name$ -- 208
+if$ -- 1426
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 121
-newline$ -- 42
-num.names$ -- 35
-pop$ -- 176
+missing$ -- 138
+newline$ -- 47
+num.names$ -- 40
+pop$ -- 198
 preamble$ -- 1
-purify$ -- 22
+purify$ -- 25
 quote$ -- 0
-skip$ -- 315
+skip$ -- 349
 stack$ -- 1
-substring$ -- 202
-swap$ -- 120
+substring$ -- 221
+swap$ -- 132
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 3
 warning$ -- 0
-while$ -- 45
+while$ -- 51
 width$ -- 0
-write$ -- 117
+write$ -- 131
 (There was 1 error message)
