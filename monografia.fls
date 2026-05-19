@@ -1,6 +1,6 @@
-PWD G:\My Drive\Acadêmico\IFSC\TCC\IFSC_LATEX_TCC
+PWD g:\My Drive\Acadêmico\IFSC\TCC\IFSC_LATEX_TCC
 INPUT C:\Users\vinic\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT monografia.tex
+INPUT g:\My Drive\Acadêmico\IFSC\TCC\IFSC_LATEX_TCC\monografia.tex
 OUTPUT monografia.log
 INPUT C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex\latex\abntex2\abntex2.cls
 INPUT C:\Users\vinic\AppData\Local\Programs\MiKTeX\tex\latex\abntex2\abntex2.cls
@@ -438,14 +438,21 @@ INPUT .\tex\cap2.tex
 INPUT tex\cap2.tex
 INPUT C:\Users\vinic\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
 INPUT C:\Users\vinic\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8t.tfm
-INPUT .\figuras\audi_A8_sensors_and_cameras.jpg
-INPUT .\figuras\audi_A8_sensors_and_cameras.jpg
-INPUT .\figuras\audi_A8_sensors_and_cameras.jpg
-INPUT .\figuras\audi_A8_sensors_and_cameras.jpg
-INPUT .\figuras\audi_A8_sensors_and_cameras.jpg
-INPUT .\figuras\audi_A8_sensors_and_cameras.jpg
-INPUT .\figuras\audi_A8_sensors_and_cameras.jpg
+INPUT .\figuras\vehicle_electronics_network.png
+INPUT .\figuras\vehicle_electronics_network.png
+INPUT .\figuras\vehicle_electronics_network.png
+INPUT .\figuras\vehicle_electronics_network.png
+INPUT .\figuras\vehicle_electronics_network.png
+INPUT .\figuras\vehicle_electronics_network.png
+INPUT .\figuras\vehicle_electronics_network.png
 INPUT C:\Users\vinic\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvr8t.tfm
+INPUT .\figuras\audi_A8_sensors_and_cameras.jpg
+INPUT .\figuras\audi_A8_sensors_and_cameras.jpg
+INPUT .\figuras\audi_A8_sensors_and_cameras.jpg
+INPUT .\figuras\audi_A8_sensors_and_cameras.jpg
+INPUT .\figuras\audi_A8_sensors_and_cameras.jpg
+INPUT .\figuras\audi_A8_sensors_and_cameras.jpg
+INPUT .\figuras\audi_A8_sensors_and_cameras.jpg
 INPUT C:\Users\vinic\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
 INPUT C:\Users\vinic\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
 INPUT C:\Users\vinic\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\helvetic\phvb8t.vf
