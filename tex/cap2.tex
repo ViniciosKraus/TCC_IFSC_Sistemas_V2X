@@ -27,12 +27,24 @@ ao veículo \cite{ref:leen2002}.
     \small Fonte: Adaptado de Leen e Heffernan (2002).
 \end{figure}
 
+A Unidade de Controle Eletrônico (ECU) é o principal componente da arquitetura eletrônica moderna, operando de maneira dedicada funções específicas do
+veículo. Tecnicalmente, as ECUs funcionam sob o modelo IPO (\textit{Input-Process-Output}), onde circuitos de entrada recebem sinais de sensores (como
+temperatura e velocidade), microcontroladores processam os dados e executam algoritmos para tomada de decisão, e circuitos de saída utilizam os resultados
+para controlar atuadores (como injetores de combustível e freios). De acordo com \cite{ref:munir2018}, os automóveis modernos evoluiram integrando uma centena
+de processadores, que operam sob protocolos de comunicação em redes de alta velocidade para coordenar as funções do automóvel.
+
+A integração dessas unidades de controle em uma arquitetura de rede complexa exige que o veículo seja tratado como um conjunto de sistemas distribuídos.
+Funções criticas, como segurança ativa e controle de propulsão, dependem da comunicação eficiente entre varias ECUs através das redes do automóvel. Essa
+grande quantidade de eletrônica integrada e uma crescente interdependência entre os subsistemas tornam o desenvolvimento, teste e validação de software
+automotivo cada vez mais desafiadores, mas também traz a oportunidade do desenvolvimento de novas tecnologias e funcionalidades que permitem uma maior
+consciência sobre o ambiente para uma melhor experiência de condução e segurança.
+
 \section{Evolução da Eletrônica e Sistemas Embarcados}
 
 A indústria automotiva tem passado por uma transformação significativa nas últimas décadas, tornando-se significativamente mais intensiva em sistemas
 computacionais e softwares do que em sistemas mecânicos. Enquanto historicamente o desenvolvimento era dominado pela engenharia mecânica, hoje a parte
 eletrônica e de software se tornaram o principal motor de inovação no setor automotivo. Essa transformação se iniciou por volta de 1970, com a introdução
-da Unidade de Controle Eletrônico (ECU), que alterou as lógicas de comando das funcionalidades veículares.  
+das ECUs, que alterou as lógicas de comando das funcionalidades veículares.  
 
 Veículos mais modernos apresentam um sistemas embarcados cada vez mais complexos, integrando uma variedade de radares, sensores e câmeras para aquisição de
 dados. Como ilustrado na Figura \ref{fig:audi_a8}, o Audi A8 integra diversos componentes eletrônicos, que trabalham de forma conjunta, oferecendo ao motorista
@@ -57,17 +69,18 @@ a infraestrutura urbana ao seu redor através da conectividade V2X.
 
 \section{Tecnologia de Comunicação Veicular (V2X)}
 
-As citações diretas com menos de três linhas “devem estar entre aspas e devem mostrar entre parênteses o ano e a página da obra consultada.” (AUTOR, ano, página). Já as citações com mais de três linhas devem ser recuadas da margem esquerda em 4 cm, tamanho da fonte 10, espaçamento simples e texto sem aspas (ABNT, 2002, p. 2).
+A comunicação veicular consiste em uma tecnologia para troca de dados entre veículos e outros elementos do ambiente, aumentando a consciência situacional no
+ambiente de tráfego, gestão operacional e a conveniência do usuário. A ideia principal desse tipo de comunicação é elevar o nível de segurança e eficiência do
+transporte, permitindo que os automóveis recebam informações críticas que sistemas de bordo isolados não conseguem captar sozinhos, além de possibilitar
+funcionalidades como a gestão de frotas em tempo real, monitoramento de condições de tráfego, atualizações de software \textit{over-the-air} (OTA) e serviços
+de entretenimento conectados. Neste contexto, a literatura destaca que a comunicação \textit{Vehicle-to-Everything} (V2X) é projetada para ampliar o alcance
+de detecção e percepção dos veículos além do que os sensores tradicionais locais podem alcançar \cite{ref:men2021}.
 
-
-
- \begin{citacao}
-            \begin{alineas}[leftmargin=\leftskip+\labelwidth-\labelsep]
-                Texto texto texto texto texto texto texto texto. Texto texto texto texto texto texto. Texto texto texto texto texto texto texto texto texto. Texto texto texto texto texto texto Texto texto texto texto texto texto. Texto texto texto texto texto texto. (\citeauthor{ref:jubelli}, \citeyear{ref:jubelli}, p. 20).
-            \end{alineas}
-\end{citacao}
-
-
+A implementação desse ecossistema tem como base dois padrões de comunicação principais: o DSRC (\textit{Dedicated Short Range Communications}) baseado no
+padrão IEEE 802.11p, e o C-V2X (\textit{Cellular Vehicle-to-Everything}) desenvolvido pela 3GPP, que utiliza a infraestrutura de redes celulares para
+comunicação. O DSRC foi o primeiro padrão a ser desenvolvido e testado, sendo utilizado principalmente para comunicação de curto alcance, enquanto o C-V2X é
+uma tecnologia mais recente, que oferece maior alcance, capacidade de dados, maior confiabilidade e melhor desempenho em ambientes urbanos densos. Além disso,
+o C-V2X é projetado para ser compatível com as futuras gerações de redes móveis, permitindo uma evolução contínua da tecnologia de comunicação veicular. 
 
 \section{Modelagem e Simulação de Tráfego}
 
