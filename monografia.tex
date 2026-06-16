@@ -38,6 +38,7 @@
 \usepackage{float}
 \floatstyle{plaintop}
 \restylefloat{quadro}
+\floatname{quadro}{Tabela}
 \usepackage{chngcntr}
 \usepackage{lipsum}
 \usepackage{tocloft}
@@ -250,8 +251,9 @@
 % inserir lista de quadros
 %---------------------------------------------------------------------%
 
-\renewcommand{\listquadroname}{Lista de quadros}
+\renewcommand{\listquadroname}{Lista de Tabelas}
 \newfloat{quadro}{\quadroname}{loq}[chapter]
+\renewcommand{\quadroname}{Tabela}
 \setfloatlocations{quadro}{hbtp}
 \newlistof{listofquadros}{loq}{\listquadroname}
 \newlistentry{quadro}{loq}{0}
@@ -327,7 +329,7 @@
 % ----------------------------------------------------------
 % Referências bibliográficas
 % ----------------------------------------------------------
-\bibliography{abntex2-options,referencias}
+\bibliography{referencias}
 
 % ----------------------------------------------------------
 % Apêndices

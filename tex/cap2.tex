@@ -82,72 +82,123 @@ comunicação. O DSRC foi o primeiro padrão a ser desenvolvido e testado, sendo
 uma tecnologia mais recente, que oferece maior alcance, capacidade de dados, maior confiabilidade e melhor desempenho em ambientes urbanos densos. Além disso,
 o C-V2X é projetado para ser compatível com as futuras gerações de redes móveis, permitindo uma evolução contínua da tecnologia de comunicação veicular. 
 
-\section{Modelagem e Simulação de Tráfego}
+As interações no ambiente V2X podem ser classificadas em quatro categorias principais, como mostrado na Tabela \ref{quadro1} e explicado nos subcapítulos 
+seguintes, onde cada tipo de comunicação representa uma interação diferente entre o veículo e o ambiente ao seu redor:
 
-Texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto. \cite{ref:mulligan}.
-
-
-\subsubsection{Subtítulo Quaternário}
-
-Texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto  (conforme exposto na Figura \ref{fig:audi_a8}).
-
-Texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto conforme indica a Tabela \ref{tabela1}.
-
-    
-
-\begin{table}[h]
+\begin{quadro}[H]
 \centering
-\caption{Produção de petróleo na Bahia}
-\begin{tabular}{ c c }
-\ChangeRT{2pt}
-Ano  & Produção (1000 t) \\ \ChangeRT{2pt}
-1996 & 2.536             \\ 
-1997 & 2.665             \\ 
-1998 & 3.056             \\ 
-1999 & 3.567             \\ 
-2021 & Atômica           \\ \ChangeRT{2pt}
-\end{tabular}
-\label{tabela1}
-\\
-\small{Fonte: Adaptado de ANP (2000).} 
-\end{table}
-
-
-
-    
-    Texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto 
-    Texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto como evidencia a Figura  \ref{fig:diagrama}.
-    
-\begin{quadro}[h]
-\centering
-
-\caption{Tipos de energia analisados}
-\begin{tabular}{|c|c|}
+\caption{Tecnologias de Comunicação Veicular}
+\begin{tabular}{|c|c|c|}
 \hline
-\textbf{Ano} & \textbf{Tipos de energia} \\ \hline
-2017         & Mecânica                  \\ \hline
-2018         & Térmica                   \\ \hline
-2019         & Elétrica                  \\ \hline
-2020         & Química                   \\ \hline
-2021         & Atômica                   \\ \hline
+\textbf{Sigla}  & \textbf{Significado}          & \textbf{Exemplo}                              \\ \hline
+V2V             & Veículo-para-Veículo          & Alerta de frenagem brusca do carro da frente  \\ \hline
+V2I             & Veículo-para-Infraestrutura   & Aviso de semáforo fechando à frente           \\ \hline
+V2P             & Veículo-para-Pedestre         & Detector de pedestre atravessando a rua       \\ \hline
+V2N             & Veículo-para-Nuvem            & Rotas de trânsito atualizadas                 \\ \hline
 \end{tabular}
 \label{quadro1}
 \\
-\small{Fonte: Elaboração própria (2021).} 
+\small{Fonte: Elaboração própria (2026).}
 \end{quadro}
-    
-    
-    \begin{figure}[H]
-    	\centering
-    	\caption{Diagrama Fasorial}
-    	\includegraphics[scale=0.45]{figuras/diagrama.jpg}
-    	\label{fig:diagrama}
-    	\\
-    	\vspace{0.2cm}\hspace{-3cm}\small{Fonte: Silva (2020).}
-    \end{figure}
-    
-    Texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto, conforme mostra a Equação \ref{eq:baskara}.
-    
-\begin{equation} \label{eq:baskara}
-  x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
-\end{equation} 
+
+\subsection{Veículo-para-Veículo (V2V)}
+
+A comunicação veículo-para-veículo é a parte principal da segurança ativa em um sistema conectado, sendo possível a troca de informações entre veículos
+próximos sem a mediação de uma rede de celular ou infraestrutura de estrada. Ambas as tecnologias previamente mencionadas nesse capítulo, o DSRC e o C-V2X,
+são capazes de suportar a comunicação V2V utilizando uma rede ad-hoc, onde os veículos se comunicam diretamente entre si e compartilham informações criticas
+com baixa latência. De acondo com a \cite{ref:usdot2024} essa tecnologia de curta distância é projetada para um alcance nominal em torno de 300 metros,
+tendo o benificio de superar as limitações dos sensores locais do veículo com uma comunicação direta e rápida, permitindo que os veículos alertem uns aos
+outros sobre perigos iminentes, condições de tráfego e outras informações relevantes para a segurança e eficiência do transporte.
+
+A base do funcionamento da comunicação V2V se baseia na troca de mensagens de estado em alta frequência, onde geralmente funciona com uma taxa de 10 Hz
+\cite{ref:usdot2024}, onde os veículos transmitem informações como posição, velocidade, direção e status de frenagem para os veículos próximos, sendo no padrão
+norte americano conhecido como BSM (\textit{Basic Safety Message}) e no padrão europeu conhecido como CAM (\textit{Cooperative Awareness Message}). A Figura
+\ref{fig:v2v_communication} ilustra um veículo interpretando informações disponíveis ao seu redor, onde o dado pode ser proviniente do próprio veículo ou de
+outros veículos próximos, trazendo o benefício de uma percepção não apenas do que os sensores locais conseguem captar, mas também do que toda a rede dispõe.
+
+\begin{figure}[H]
+    \centering
+    \caption{Comunicação Veículo-para-Veículo (V2V)}
+    \includegraphics[width=0.85\linewidth]{figuras/v2v_communication.jpg}
+    \label{fig:v2v_communication}
+    \par\smallskip
+    \small Fonte: Herrman \& Herrman, P.L.L.C. (2024).
+\end{figure}
+
+A expansão da tecnologia 5G nos últimos anos tem impulsionado o desenvolvimento de tecnologias V2V avançadas, que exigem altas taxas de transmissão de dados e
+latência muito baixas, chegando a níveis de latência menores que 1 milissegundo. Segundo o trabalho do Departamento de Transporte dos Estados Unidos
+\cite{ref:usdot2024} esse baixo nível de latência é suportado pela \textit{Ultra-Reliable Low Latency Communication} (URLLC), que além de garantir uma
+comunicação rápida, também garante uma alta confiabilidade, chegando a níveis de 99,999\% de fidelidade na transmissão dos sinais. Essa combinação, nos traz
+funcionalidades como o compartilhamento da percepção de sensores, onde é possível até transmitir imagens de suas câmeras para outros veículos, além de radares
+e outros sensores.
+
+\subsection{Veículo-para-Infraestrutura (V2I)}
+
+A modalidade V2I consiste na troca de informações entre os veículos e elementos que compõem a via, como semáforos, sinais de trânsito, zonas de pedágio e outros
+equipamentos instalados no ambiente que a literatura define como \textit{Roadside Unit} (RSU). De acordo com \cite{ref:yogarayan2021}, as RSUs atuam como nós na
+rede e podem tanto enviar quanto receber dados dos veículos que estiverem dentro do seu raio de comunicação, possibilitando uma maior conciência por parte do
+veículo. O V2I também se apresenta como uma tecnologia fundamental para a implementação de sistemas de transporte inteligentes, sendo assim como o V2V uma peça
+fundamental para a construção de um ecossistema de mobilidade mais seguro e eficiente.
+
+O trabalho de \cite{ref:usdot2024} menciona alguns tipos de mensagens que esses tipos de infraestruturas podem transmitir, como por exemplo o SPaT (\textit{Signal
+Phase and Timing}), que é uma mensagem transmitida por semáforos para informar os veículos sobre o status atual do sinal (vermelho, amarelo ou verde) e o tempo
+restante para a mudança de fase. Outra mensagem importante é a MAP (\textit{Map Data}), que fornece informações detalhadas sobre a geometria da interseção,
+incluindo a localização das faixas, zonas de pedestres e outros elementos relevantes para a navegação segura dos veículos. A Figura \ref{fig:v2i_communication}
+ilustra um exemplo de comunicação V2I, onde já é possível começar a perceber que as tecnologias V2X funcionam de maneira integrada e complementar, onde os
+veículos se comunicam entre si e também com a infraestrutura ao seu redor, coletando e compartilhando informações para uma melhor percepção do ambiente e tomada
+de decisão.
+
+\begin{figure}[H]
+    \centering
+    \caption{Comunicação Veículo-para-Infraestrutura (V2I)}
+    \includegraphics[width=0.85\linewidth]{figuras/v2i_communication.jpg}
+    \label{fig:v2i_communication}
+    \par\smallskip
+    \small Fonte: Eric Peters Autos (2014).
+\end{figure}
+
+Uma das preocupações expressas por \cite{ref:yogarayan2021} é o alto investimento financeiro para a implementação e manutenção das RSUs, além do tempo necessário
+para a instalação e integração com os sistemas de transporte existentes. Uma ideia interessante aparece no trabalho de \cite{ref:mohammed2025}, onde é proposto o
+uso do \textit{multi-access edge computing} (MEC) para reduzir as tarefas computacionais intensivas e sensiveis à latência, rodando algoritimos complexos em
+servidores localizados próximos à borda da rede, reduzindo a necessidade de processamento local em cada unidade das RSUs ou dos veículos, permitindo uma redução
+de custos para equipamentos instalados neles.
+
+\subsection{Veículo-para-Pedestre (V2P)}
+
+A tecnologia V2P é projetada para melhorar a segurança do que a documentação do Departamento de Transporte dos Estados Unidos \cite{ref:usdot2024} define como
+"usuários vulneráveis da estrada", que incluem pedestres, ciclistas, cadeirantes e outros indivíduos que compartilham as vias com os veículos. Assim como as
+outras duas modalidades de V2X mencionadas anteriormente, o V2P também busca mitigar os riscos de acidentes no transito, principalmente em cenários onde o
+motorista pode não perceber a presença de um pedestre ou ciclista, como por exemplo em condições de baixa visibilidade ou em pontos cegos.
+
+Esse sistema se baseia na Personal Safety Message (PSM), que é uma mensagem padronizada (SAE J2735) que descreve a posição, velocidade e telemetria do pedrestre
+\cite{ref:usdot2024}. As mensagens padronizadas pela SAE International, são como um dicionário de mensagens para a comunicação V2X, onde a ideia principal é
+garantir a interoperabilidade entre os diversos fabricantes e tecnologias, estabelecendo um formato comum para a troca de informações, facilitando a compreensão
+por qualquer outro nó do sistema.
+
+Diferente da modalidade entre veículos, os dispositivos utilizados pelos pedestres que suportam a comunicação V2P possuem, de uma maneira geral, uma capacidade de
+bateria limitada e uma menor sensibilidade para a comunicação devido ao design de suas antenas \cite{ref:wang2017}. Assim como ilustrado na Figura
+\ref{fig:v2p_communication}, a interação V2P é importante em casos onde o pedestre pode não ser visível para o motorista, como em casos de conversão em esquinas,
+estacionamentos ou em outros cenários onde o pedestre pode estar em risco de ser atingido. 
+
+\begin{figure}[H]
+    \centering
+    \caption{Comunicação Veículo-para-Pedestre (V2P)}
+    \includegraphics[width=0.85\linewidth]{figuras/v2p_communication.png}
+    \label{fig:v2p_communication}
+    \par\smallskip
+    \small Fonte: Metro Infrasys Pvt. Ltd.
+\end{figure}
+
+Em síntese, a comunicação V2P representa um importante complemento ao ecossistema V2X, abordando a segurança de um segmento vulnerável da população. Com as
+evoluções tecnológicas para o 5G, os dispositivos móveis dos pedestres integrados à rede V2X podem fornecer avisos críticos aos condutores com baixa latência,
+potencialmente riscos onde a percepção humana é limitada. Assim, juntamente com as modalidades V2V e V2I, o V2P contribui para a construção de um ambiente de
+tráfego seguro para todos os usuários das vias.
+
+\subsection{Veículo-para-Rede (V2N)}
+
+Nessa ultima modalidade do V2X, o veículo se comunica com a rede de telecomunicações, permitindo o acesso a uma variedade de serviços baseados em nuvem através
+da conectividade por meio de redes celulares, o que expande significativamente o alcance e as capacidades de comunicação dos veículos conectados. De acordo com
+\cite{ref:kousaridas2021}, essa conexão permite que informações de áreas geograficamente distantes sejam transmitidas para o veículo, contemplando os sensores
+de bordo e outros dados disponíveis para o veículo.
+
+\section{Modelagem e Simulação de Tráfego}
