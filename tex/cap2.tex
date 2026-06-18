@@ -3,17 +3,17 @@
 O capítulo atual traz a fundamentação teórica necessária para o desenvolvimento deste trabalho, abrangendo a evolução da eletrônica e sistemas
 embarcados veiculares, e a tecnologia de comunicação veículo-a-tudo (V2X). Serão introduzidos conceitos, definições e padrões tecnológicos, visando
 construir uma base teórica sólida para desenvolver a simulação de tráfego e a subsequente análise dos benefícios da conectividade cooperativa na
-segurança e eficiência do trafego urbano.
+segurança e eficiência do tráfego urbano.
 
 \section{Fundamentos da Eletrônica Veicular}
 
 O mercado automotivo global na atualidade apresenta grande parte da competitividade e diferenciação entre os fabricantes quando o assunto é a eletrônica
 integrada nos veículos. Um estudo publicado por \cite{ref:bccresearch} realizou a análise da cadeia de suprimentos e levantou dados sobre o crescimento
-do mercado de eletrônicos na industria automotiva, onde os componentes eletrônicos já representam cerca de 30\% do valor valor total de fabricação de um
-novo veículo movido a motores de combustão interna. Com a consolidação de novas tecnologias de conectividade, direção autônoma e eletrificação, projeta-se
-que a eletrônica atinja uma participação de 50\% do valor total de fabricação de um veículo a combustão e chegando a 70\% em veículos elétricos (EVs).
+do mercado de eletrônicos na indústria automotiva, onde os componentes eletrônicos já representam cerca de 30\% do valor total de fabricação de um novo
+veículo movido a motores de combustão interna. Com a consolidação de novas tecnologias de conectividade, direção autônoma e eletrificação, projeta-se que
+a eletrônica atinja uma participação de 50\% do valor total de fabricação de um veículo a combustão, chegando a 70\% em veículos elétricos (EVs).
 
-Essa infraestrutura tecnológica é bem mais visível em veículos premium, que conseguem integrar mais de 100 ECUs interconectadas e distribuidas por todo o
+Essa infraestrutura tecnológica é bem mais visível em veículos premium, que conseguem integrar mais de 100 ECUs interconectadas e distribuídas por todo o
 veículo. Diversas redes diferentes como CAN, LIN, FlexRay e Ethernet são utilizadas para conectar os diversos subsistemas, assim como é mostrado na
 Figura \ref{fig:vehicle_electronics_network}, onde múltiplas ECUs, sensores e atuadores se comunicam por meio de barramentos e redes de comunicação internas
 ao veículo \cite{ref:leen2002}.
@@ -28,13 +28,13 @@ ao veículo \cite{ref:leen2002}.
 \end{figure}
 
 A Unidade de Controle Eletrônico (ECU) é o principal componente da arquitetura eletrônica moderna, operando de maneira dedicada funções específicas do
-veículo. Tecnicalmente, as ECUs funcionam sob o modelo IPO (\textit{Input-Process-Output}), onde circuitos de entrada recebem sinais de sensores (como
+veículo. Tecnicamente, as ECUs funcionam sob o modelo IPO (\textit{Input-Process-Output}), onde circuitos de entrada recebem sinais de sensores (como
 temperatura e velocidade), microcontroladores processam os dados e executam algoritmos para tomada de decisão, e circuitos de saída utilizam os resultados
 para controlar atuadores (como injetores de combustível e freios). De acordo com \cite{ref:munir2018}, os automóveis modernos evoluiram integrando uma centena
 de processadores, que operam sob protocolos de comunicação em redes de alta velocidade para coordenar as funções do automóvel.
 
 A integração dessas unidades de controle em uma arquitetura de rede complexa exige que o veículo seja tratado como um conjunto de sistemas distribuídos.
-Funções criticas, como segurança ativa e controle de propulsão, dependem da comunicação eficiente entre varias ECUs através das redes do automóvel. Essa
+Funções críticas, como segurança ativa e controle de propulsão, dependem da comunicação eficiente entre várias ECUs através das redes do automóvel. Essa
 grande quantidade de eletrônica integrada e uma crescente interdependência entre os subsistemas tornam o desenvolvimento, teste e validação de software
 automotivo cada vez mais desafiadores, mas também traz a oportunidade do desenvolvimento de novas tecnologias e funcionalidades que permitem uma maior
 consciência sobre o ambiente para uma melhor experiência de condução e segurança.
@@ -44,9 +44,9 @@ consciência sobre o ambiente para uma melhor experiência de condução e segur
 A indústria automotiva tem passado por uma transformação significativa nas últimas décadas, tornando-se significativamente mais intensiva em sistemas
 computacionais e softwares do que em sistemas mecânicos. Enquanto historicamente o desenvolvimento era dominado pela engenharia mecânica, hoje a parte
 eletrônica e de software se tornaram o principal motor de inovação no setor automotivo. Essa transformação se iniciou por volta de 1970, com a introdução
-das ECUs, que alterou as lógicas de comando das funcionalidades veículares.  
+das ECUs, que alterou as lógicas de comando das funcionalidades veiculares.  
 
-Veículos mais modernos apresentam um sistemas embarcados cada vez mais complexos, integrando uma variedade de radares, sensores e câmeras para aquisição de
+Veículos mais modernos apresentam sistemas embarcados cada vez mais complexos, integrando uma variedade de radares, sensores e câmeras para aquisição de
 dados. Como ilustrado na Figura \ref{fig:audi_a8}, o Audi A8 integra diversos componentes eletrônicos, que trabalham de forma conjunta, oferecendo ao motorista
 funções avançadas de assistência à condução e segurança. Essa diversidade de dispositivos demonstra que a eletrônica se tornou algo fundamental para os veículos
 atuais, trazendo tecnologias inovadoras ao mercado, como o sistema de direção autônoma e a conectividade veicular (V2X), que serão abordados posteriormente 
@@ -105,15 +105,15 @@ V2N             & Veículo-para-Nuvem            & Rotas de trânsito atualizada
 
 A comunicação veículo-para-veículo é a parte principal da segurança ativa em um sistema conectado, sendo possível a troca de informações entre veículos
 próximos sem a mediação de uma rede de celular ou infraestrutura de estrada. Ambas as tecnologias previamente mencionadas nesse capítulo, o DSRC e o C-V2X,
-são capazes de suportar a comunicação V2V utilizando uma rede ad-hoc, onde os veículos se comunicam diretamente entre si e compartilham informações criticas
-com baixa latência. De acondo com a \cite{ref:usdot2024} essa tecnologia de curta distância é projetada para um alcance nominal em torno de 300 metros,
-tendo o benificio de superar as limitações dos sensores locais do veículo com uma comunicação direta e rápida, permitindo que os veículos alertem uns aos
+são capazes de suportar a comunicação V2V utilizando uma rede ad-hoc, onde os veículos se comunicam diretamente entre si e compartilham informações críticas
+com baixa latência. De acordo com a \cite{ref:usdot2024}, essa tecnologia de curta distância é projetada para um alcance nominal em torno de 300 metros,
+tendo o benefício de superar as limitações dos sensores locais do veículo com uma comunicação direta e rápida, permitindo que os veículos alertem uns aos
 outros sobre perigos iminentes, condições de tráfego e outras informações relevantes para a segurança e eficiência do transporte.
 
 A base do funcionamento da comunicação V2V se baseia na troca de mensagens de estado em alta frequência, onde geralmente funciona com uma taxa de 10 Hz
 \cite{ref:usdot2024}, onde os veículos transmitem informações como posição, velocidade, direção e status de frenagem para os veículos próximos, sendo no padrão
 norte americano conhecido como BSM (\textit{Basic Safety Message}) e no padrão europeu conhecido como CAM (\textit{Cooperative Awareness Message}). A Figura
-\ref{fig:v2v_communication} ilustra um veículo interpretando informações disponíveis ao seu redor, onde o dado pode ser proviniente do próprio veículo ou de
+\ref{fig:v2v_communication} ilustra um veículo interpretando informações disponíveis ao seu redor, onde o dado pode ser proveniente do próprio veículo ou de
 outros veículos próximos, trazendo o benefício de uma percepção não apenas do que os sensores locais conseguem captar, mas também do que toda a rede dispõe.
 
 \begin{figure}[H]
@@ -136,7 +136,7 @@ e outros sensores.
 
 A modalidade V2I consiste na troca de informações entre os veículos e elementos que compõem a via, como semáforos, sinais de trânsito, zonas de pedágio e outros
 equipamentos instalados no ambiente que a literatura define como \textit{Roadside Unit} (RSU). De acordo com \cite{ref:yogarayan2021}, as RSUs atuam como nós na
-rede e podem tanto enviar quanto receber dados dos veículos que estiverem dentro do seu raio de comunicação, possibilitando uma maior conciência por parte do
+rede e podem tanto enviar quanto receber dados dos veículos que estiverem dentro do seu raio de comunicação, possibilitando uma maior consciência por parte do
 veículo. O V2I também se apresenta como uma tecnologia fundamental para a implementação de sistemas de transporte inteligentes, sendo assim como o V2V uma peça
 fundamental para a construção de um ecossistema de mobilidade mais seguro e eficiente.
 
@@ -159,7 +159,7 @@ de decisão.
 
 Uma das preocupações expressas por \cite{ref:yogarayan2021} é o alto investimento financeiro para a implementação e manutenção das RSUs, além do tempo necessário
 para a instalação e integração com os sistemas de transporte existentes. Uma ideia interessante aparece no trabalho de \cite{ref:mohammed2025}, onde é proposto o
-uso do \textit{multi-access edge computing} (MEC) para reduzir as tarefas computacionais intensivas e sensiveis à latência, rodando algoritimos complexos em
+uso do \textit{multi-access edge computing} (MEC) para reduzir as tarefas computacionais intensivas e sensíveis à latência, rodando algoritmos complexos em
 servidores localizados próximos à borda da rede, reduzindo a necessidade de processamento local em cada unidade das RSUs ou dos veículos, permitindo uma redução
 de custos para equipamentos instalados neles.
 
@@ -167,11 +167,11 @@ de custos para equipamentos instalados neles.
 
 A tecnologia V2P é projetada para melhorar a segurança do que a documentação do Departamento de Transporte dos Estados Unidos \cite{ref:usdot2024} define como
 "usuários vulneráveis da estrada", que incluem pedestres, ciclistas, cadeirantes e outros indivíduos que compartilham as vias com os veículos. Assim como as
-outras duas modalidades de V2X mencionadas anteriormente, o V2P também busca mitigar os riscos de acidentes no transito, principalmente em cenários onde o
+outras duas modalidades de V2X mencionadas anteriormente, o V2P também busca mitigar os riscos de acidentes no trânsito, principalmente em cenários onde o
 motorista pode não perceber a presença de um pedestre ou ciclista, como por exemplo em condições de baixa visibilidade ou em pontos cegos.
 
-Esse sistema se baseia na Personal Safety Message (PSM), que é uma mensagem padronizada (SAE J2735) que descreve a posição, velocidade e telemetria do pedrestre
-\cite{ref:usdot2024}. As mensagens padronizadas pela SAE International, são como um dicionário de mensagens para a comunicação V2X, onde a ideia principal é
+Esse sistema se baseia na Personal Safety Message (PSM), que é uma mensagem padronizada (SAE J2735) que descreve a posição, velocidade e telemetria do pedestre
+\cite{ref:usdot2024}. As mensagens padronizadas pela SAE International são como um dicionário de mensagens para a comunicação V2X, onde a ideia principal é
 garantir a interoperabilidade entre os diversos fabricantes e tecnologias, estabelecendo um formato comum para a troca de informações, facilitando a compreensão
 por qualquer outro nó do sistema.
 
@@ -190,15 +190,65 @@ estacionamentos ou em outros cenários onde o pedestre pode estar em risco de se
 \end{figure}
 
 Em síntese, a comunicação V2P representa um importante complemento ao ecossistema V2X, abordando a segurança de um segmento vulnerável da população. Com as
-evoluções tecnológicas para o 5G, os dispositivos móveis dos pedestres integrados à rede V2X podem fornecer avisos críticos aos condutores com baixa latência,
-potencialmente riscos onde a percepção humana é limitada. Assim, juntamente com as modalidades V2V e V2I, o V2P contribui para a construção de um ambiente de
+evoluções tecnológicas para o 5G, os dispositivos móveis dos pedestres integrados à rede V2X podem fornecer avisos críticos aos condutores sobre riscos em
+situações onde a percepção humana é limitada. Assim, juntamente com as modalidades V2V e V2I, o V2P contribui para a construção de um ambiente de
 tráfego seguro para todos os usuários das vias.
 
 \subsection{Veículo-para-Rede (V2N)}
 
 Nessa ultima modalidade do V2X, o veículo se comunica com a rede de telecomunicações, permitindo o acesso a uma variedade de serviços baseados em nuvem através
 da conectividade por meio de redes celulares, o que expande significativamente o alcance e as capacidades de comunicação dos veículos conectados. De acordo com
-\cite{ref:kousaridas2021}, essa conexão permite que informações de áreas geograficamente distantes sejam transmitidas para o veículo, contemplando os sensores
+\cite{ref:kousaridas2021}, essa conexão permite que informações de áreas geograficamente distantes sejam transmitidas para o veículo, complementando os sensores
 de bordo e outros dados disponíveis para o veículo.
 
-\section{Modelagem e Simulação de Tráfego}
+De uma maneira simples a Figura \ref{fig:v2n_communication} busca ilustrar a comunicação entre o veículo e a rede de telecomunicações, onde o veículo vai
+funcionar de maneira análoga a um telefone celular como conhecemos, onde ele se conecta a uma torre de celular e através dela consegue acessar a internet e
+serviços baseados em nuvem. Segundo o texto de \cite{ref:kousaridas2021}, essa conectividade de longo alcance é viabilizada pela interface Uu, estabelecida
+entre a infraestrutura de rede celular e o equipamento do usuário, que no caso do V2N é o veículo, permitindo a troca de dados entre eles.
+
+\begin{figure}[H]
+    \centering
+    \caption{Comunicação Veículo-para-Rede (V2N)}
+    \includegraphics[width=0.85\linewidth]{figuras/v2n_communication.png}
+    \label{fig:v2n_communication}
+    \par\smallskip
+    \small Fonte: everythingRF (2022).
+\end{figure}
+
+Esse tipo de tecnologia complementa os sistemas PC5 e DSRC, que são as duas principais tecnologias sem fio para troca de dados em curto alcance e amplamente
+utilizadas para as outras modalidades de V2X, como o V2V, V2I e V2P que foram abordadas anteriormente. Uma funcionalidade importante que é habilitada pela
+conectividade V2N é a capacidade de realizar atualizações de software \textit{over-the-air} (OTA), que como é falado no texto da \cite{ref:5gaa2019}, permite
+que os fabricantes enviem atualizações de software remotamente para os veículos, corrigindo bugs, melhorando a segurança e adicionando novas funcionalidades
+sem a necessidade de levar o veículo a uma oficina, focando na melhoria contínua do software embarcado. 
+
+\section{Tecnologias de Comunicação Veicular}
+
+Para garantir um sistema de transporte inteligente e cooperativo, utilizamos tecnologias de comunicação que permitem a troca de informações de maneira confiável
+e com uma latência baixa. Na atualidade, o cenário global é dominado por duas tecnologias principais que competem e, em certos casos, se complementam para a
+implementação de sistemas V2X: o DSRC (\textit{Dedicated Short Range Communications}) e o C-V2X (\textit{Cellular Vehicle-to-Everything}). Ambas as tecnologias
+operam em frequências de 5.895-5.925 GHz que é especialmente alocada para aplicações de transporte inteligente \cite{ref:usdot2024}, sendo o DSRC baseado no
+padrão IEEE 802.11p, enquanto o C-V2X é desenvolvido pela 3GPP e utiliza a infraestrutura de redes celulares para comunicação.
+
+\subsection{Dedicated Short-Range Communications (DSRC)}
+
+A tecnologia DSRC é o padrão convencional para comunicação veicular, projetado para oferecer suporte a diversas aplicações em Sistemas de Transporte Inteligente.
+Conforme mencionado por \cite{ref:kenney2011}, a motivação primária para a criação do DSRC foi a necessidade de uma comunicação sem fio confiável e de baixa
+latência para prevenção de colisões baseadas nas metodologias do V2V. De uma maneira simples, os veículos equipados com DSRC compartilham algumas informações de
+estado básicas diversas vezes por segundo, como posição, velocidade, aceleração e direção, através de centenas de metros, permitindo que nós vizinhos computem
+trajetórias e antecipem possíveis riscos \cite{ref:kenney2011}.
+
+No que se diz respeito à prevenção de colisões, a Figura \ref{fig:dsrc_kenny} ilustra um cenário com diversos veículos equipados com DSRC, expostos a diferentes
+riscos de colisão, como por exemplo alertas em interseções, alertas de ponto cego e alertas de colisão frontal, sendo que autores como \cite{ref:sohail2025}
+afirmam que o alcance desse sinal chega tipicamente na faixa de 300 metros, mas pode variar dependendo do ambiente em que o veículo esteja localizado.
+
+\begin{figure}[H]
+    \centering
+    \caption{Veículo enviando mensagens de estado utilizando DSRC}
+    \includegraphics[width=0.6\linewidth]{figuras/dsrc_kenny.png}
+    \label{fig:dsrc_kenny}
+    \par\smallskip
+    \small Fonte: Dedicated Short-Range Communications (DSRC) Standards in the United States (2011).
+\end{figure}
+
+
+\subsection{Cellular Vehicle-to-Everything (C-V2X)}

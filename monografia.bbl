@@ -5,6 +5,12 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v<VERSION> }
 
+\bibitem[{5G AUTOMOTIVE ASSOCIATION (5GAA)} 2019]{ref:5gaa2019}
+\abntrefinfo{{5G AUTOMOTIVE ASSOCIATION (5GAA)}}{{5G AUTOMOTIVE ASSOCIATION
+  (5GAA)}}{2019}
+{{5G AUTOMOTIVE ASSOCIATION (5GAA)}. \emph{White Paper C-V2X Use Cases Volume
+  II: Examples and Service Level Requirements}. s.l.: 5GAA, 2019.}
+
 \bibitem[{BCC Research} 2024]{ref:bccresearch}
 \abntrefinfo{{BCC Research}}{{BCC Research}}{2024}
 {{BCC Research}. \emph{\textbf{Automotive Electronics Market Projected to Surge
@@ -48,9 +54,15 @@ Dispon{\'\i}vel em: $<$https://www.onsv.org.br/estudos/analise-datasus-2024$>$.
   (IFSC), Joinville.
 71 f.}
 
-\bibitem[Kousaridas et al. 2021]{ref:kousaridas2021}
-\abntrefinfo{Kousaridas et al.}{KOUSARIDAS et al.}{2021}
-{KOUSARIDAS, A. et al. \emph{5G Vehicle-to-Everything (V2X) services in
+\bibitem[Kenney 2011]{ref:kenney2011}
+\abntrefinfo{Kenney}{KENNEY}{2011}
+{KENNEY, J.~B. Dedicated short-range communications (dsrc) standards in the
+  united states.
+\emph{Proceedings of the IEEE}, v.~99, n.~6, p. 1162--1182, jun 2011.}
+
+\bibitem[Kousaridas 2021]{ref:kousaridas2021}
+\abntrefinfo{Kousaridas}{KOUSARIDAS}{2021}
+{KOUSARIDAS, A. e.~a. \emph{5G Vehicle-to-Everything (V2X) services in
   cross-border environments: Standardization and Challenges}.
 s.l., 2021.}
 
@@ -64,10 +76,10 @@ s.l., 2021.}
 {MEN, J.; HOU, Y. \emph{Controlled Mobility for C-V2X Road Safety Reception
   Optimization}. 2021. ArXiv preprint.}
 
-\bibitem[Mohammed et al. 2025]{ref:mohammed2025}
-\abntrefinfo{Mohammed et al.}{MOHAMMED et al.}{2025}
-{MOHAMMED, S.~F. et al. Optimizing end-to-end latency in c-v2x networks: A
-  novel fd-ran and mec integration approach.
+\bibitem[Mohammed 2025]{ref:mohammed2025}
+\abntrefinfo{Mohammed}{MOHAMMED}{2025}
+{MOHAMMED, S. F. e.~a. Optimizing end-to-end latency in c-v2x networks: A novel
+  fd-ran and mec integration approach.
 \emph{Vehicular Communications}, v.~55, p. 100955, 2025.}
 
 \bibitem[Munir e Koushanfar 2018]{ref:munir2018}
@@ -91,6 +103,12 @@ June 2018.}
 Tese (Tese (Doutorado em Computação, Engenharia e Matemática)) --- Vetronics
   Research Centre, University of Brighton, Brighton, 2019. 150 f.}
 
+\bibitem[Sohail 2025]{ref:sohail2025}
+\abntrefinfo{Sohail}{SOHAIL}{2025}
+{SOHAIL, M. S. e.~a. Performance analysis and security preservation of dsrc in
+  v2x networks.
+\emph{Electronics}, v.~14, n.~19, p.~3786, set 2025.}
+
 \bibitem[{U.S. Department of Transportation (USDOT)} 2024]{ref:usdot2024}
 \abntrefinfo{{U.S. Department of Transportation (USDOT)}}{{U.S. Department of
   Transportation (USDOT)}}{2024}
@@ -105,9 +123,9 @@ Tese (Tese (Doutorado em Computação, Engenharia e Matemática)) --- Vetronics
 \emph{GetMobile: Mobile Computing and Communications}, v.~21, n.~3, p. 19--25,
   set 2017.}
 
-\bibitem[Yogarayan et al. 2021]{ref:yogarayan2021}
-\abntrefinfo{Yogarayan et al.}{YOGARAYAN et al.}{2021}
-{YOGARAYAN, S. et al. V2x communication technology: Adaptability of dsrc,
+\bibitem[Yogarayan 2021]{ref:yogarayan2021}
+\abntrefinfo{Yogarayan}{YOGARAYAN}{2021}
+{YOGARAYAN, S. e.~a. V2x communication technology: Adaptability of dsrc,
   cellular and hybrid networks.
 \emph{Journal of Southwest Jiaotong University}, v.~56, n.~4, p. 535--551, aug
   2021.}

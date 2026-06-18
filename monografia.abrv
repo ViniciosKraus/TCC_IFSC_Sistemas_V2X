@@ -8,3 +8,20 @@
 \sortitem {OMS}{\makefirstuc {Organização Mundial da Saúde}}
 \sortitem {CNT}{\makefirstuc {Confederação Nacional do Transporte}}
 \sortitem {DATASUS}{\makefirstuc {Departamento de Informática do SUS}}
+\sortitem {V2V}{\makefirstuc {Veículo-para-Veículo}}
+\sortitem {V2I}{\makefirstuc {Veículo-para-Infraestrutura}}
+\sortitem {V2P}{\makefirstuc {Veículo-para-Pedestre}}
+\sortitem {V2N}{\makefirstuc {Veículo-para-Nuvem}}
+\sortitem {OTA}{\makefirstuc {Over-the-Air}}
+\sortitem {BSM}{\makefirstuc {Basic Safety Message}}
+\sortitem {CAM}{\makefirstuc {Cooperative Awareness Message}}
+\sortitem {URLLC}{\makefirstuc {Ultra-Reliable Low Latency Communication}}
+\sortitem {RSU}{\makefirstuc {Roadside Unit}}
+\sortitem {IoT}{\makefirstuc {Internet das Coisas}}
+\sortitem {3GPP}{\makefirstuc {3rd Generation Partnership Project}}
+\sortitem {PC5}{\makefirstuc {Interface PC5}}
+\sortitem {SAE}{\makefirstuc {Society of Automotive Engineers}}
+\sortitem {IEEE}{\makefirstuc {Institute of Electrical and Electronics Engineers}}
+\sortitem {LTE}{\makefirstuc {Long Term Evolution}}
+\sortitem {Veins}{\makefirstuc {Vehicles in Network Simulation}}
+\sortitem {EVs}{\makefirstuc {Veículos Elétricos}}
