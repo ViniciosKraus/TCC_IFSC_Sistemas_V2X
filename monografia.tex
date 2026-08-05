@@ -25,11 +25,10 @@
 \usepackage{graphicx}
 \usepackage{caption}
 \usepackage{subcaption}
+\usepackage[alf]{abntex2cite}
 \usepackage[utf8]{inputenc}
 \usepackage{listings}
 \usepackage{xcolor}
-\usepackage{trivfloat}
-\trivfloat{quadro}
 \usepackage{enumitem}
 \usepackage{xcolor}
 \usepackage{multicol}
@@ -252,14 +251,6 @@
 %---------------------------------------------------------------------%
 
 \renewcommand{\listquadroname}{Lista de Tabelas}
-\newfloat{quadro}{\quadroname}{loq}[chapter]
-\renewcommand{\quadroname}{Tabela}
-\setfloatlocations{quadro}{hbtp}
-\newlistof{listofquadros}{loq}{\listquadroname}
-\newlistentry{quadro}{loq}{0}
-\renewcommand{\cftquadroname}{\quadroname\space}
-\renewcommand*{\cftquadroaftersnum}{\hfill\textendash\hfill}
-\counterwithout{quadro}{chapter}
 \listofquadros* 
 \cleardoublepage
 
@@ -329,7 +320,7 @@
 % ----------------------------------------------------------
 % Referências bibliográficas
 % ----------------------------------------------------------
-\bibliography{referencias}
+\bibliography{abntex2-options,referencias}
 
 % ----------------------------------------------------------
 % Apêndices

@@ -252,3 +252,30 @@ afirmam que o alcance desse sinal chega tipicamente na faixa de 300 metros, mas 
 
 
 \subsection{Cellular Vehicle-to-Everything (C-V2X)}
+
+Outra opção que veio ganhando espaço no mercado é a tecnologia C-V2X, que utiliza a infraestrutura de redes celulares para
+realizar a troca de dados entre veículos e outros elementos do ambiente, o que possibilita um maior alcance, capacidade de
+dados, confiabilidade e desempenho em ambientes urbanos densos.
+
+A arquitetura do C-V2X é fundamentada na utilização de duas interfaces de comunicação complementares, conforme está ilustrado
+na Figura \ref{fig:v2x_usdot} do Departamento de Transporte dos Estados Unidos (USDOT). Uma das interfaces é a PC5 (Sidelink),
+que permite a comunicação direta entre dispositivos próximos, como veículos, pedestres e infraestruturas, sem a necessidade de
+intermediação de uma rede celular e mantendo uma baixa latência, o que é muito importante para aplicações de segurança. A outra
+interface é a Uu, que permite a comunicação de um dispositivo com a rede celular tradicional, possibilitando serviços de longo
+alcance e conectividade com a nuvem.
+
+\begin{figure}[H]
+    \centering
+    \caption{Ilustração de um sistema C-V2X}
+    \includegraphics[width=0.6\linewidth]{figuras/v2x_USDOT.png}
+    \label{fig:v2x_usdot}
+    \par\smallskip
+    \small Fonte: USDOT (2024).
+\end{figure}
+
+Com essa dualidade de interfaces, o veículo pode gerenciar desde a comunicação direta com outros automóveis e pedestres 
+próximos, para receber alertas de colisão com outros veículos ou indicações de usuários vulneráveis da estrada, até a
+comunicação com a rede celular para acessar serviços baseados em nuvem, como atualizações de software \textit{over-the-air}
+(OTA). Padronizado pela 3GPP, o C-V2X é projetado para ser compatível com as futuras gerações de redes móveis, permitindo
+uma evolução contínua da tecnologia de comunicação, por exemplo quando transitamos do 4G para o 5G, integrando melhorias
+trazidas pela nova geração de redes móveis.
