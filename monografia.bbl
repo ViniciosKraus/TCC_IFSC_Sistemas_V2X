@@ -1,0 +1,140 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v<VERSION> }
+
+\bibitem[{5G AUTOMOTIVE ASSOCIATION (5GAA)} 2019]{ref:5gaa2019}
+\abntrefinfo{{5G AUTOMOTIVE ASSOCIATION (5GAA)}}{{5G AUTOMOTIVE ASSOCIATION
+  (5GAA)}}{2019}
+{{5G AUTOMOTIVE ASSOCIATION (5GAA)}. \emph{White Paper C-V2X Use Cases Volume
+  II: Examples and Service Level Requirements}. s.l.: 5GAA, 2019.}
+
+\bibitem[{BCC Research} 2024]{ref:bccresearch}
+\abntrefinfo{{BCC Research}}{{BCC Research}}{2024}
+{{BCC Research}. \emph{\textbf{Automotive Electronics Market Projected to Surge
+  to \$508 Billion by 2028}}. 2024.
+Disponível em:
+  https://www.bccresearch.com/pressroom/eng/automotive-electronics-market-projected-to-surge-to-508-billion-by-2028.
+  Acesso em: 17 maio 2026.}
+
+\bibitem[{CONFEDERAÇÃO NACIONAL DO TRANSPORTE (CNT)} 2026]{ref:panoramacnt}
+\abntrefinfo{{CONFEDERAÇÃO NACIONAL DO TRANSPORTE (CNT)}}{{CONFEDERAÇÃO
+  NACIONAL DO TRANSPORTE (CNT)}}{2026}
+{{CONFEDERAÇÃO NACIONAL DO TRANSPORTE (CNT)}. \emph{\textbf{Panorama CNT de
+  Acidentes Rodoviários – 2025}}. Brasília: CNT, 2026.
+Dispon{\'\i}vel em:
+  $<$https://data.cnt.org.br/destaques/panorama-cnt-de-acidentes-rodoviarios-2025/$>$.
+  Acesso em: 3 maio 2026.}
+
+\bibitem[{DEPARTAMENTO DE INFORMÁTICA DO SUS (DATASUS)} 2024]{ref:datasus}
+\abntrefinfo{{DEPARTAMENTO DE INFORMÁTICA DO SUS (DATASUS)}}{{DEPARTAMENTO DE
+  INFORMÁTICA DO SUS (DATASUS)}}{2024}
+{{DEPARTAMENTO DE INFORMÁTICA DO SUS (DATASUS)}. \emph{\textbf{Análise
+  DATASUS 2024: estatísticas de mortalidade e saúde pública}}. Brasília:
+  Ministério da Saúde, 2024.
+Dispon{\'\i}vel em: $<$https://www.onsv.org.br/estudos/analise-datasus-2024$>$.
+  Acesso em: 3 maio 2026.}
+
+\bibitem[Hodel 2018]{ref:hodel}
+\abntrefinfo{Hodel}{HODEL}{2018}
+{HODEL, K.~N. \emph{\textbf{Planejamento e Estruturação de Testes de Software
+  em Sistemas Eletrônicos Embarcados Automotivos}}. 2018. Tese (Doutorado em
+  Ciências) -- Escola Politécnica, Universidade de São Paulo.
+150 f. Disponível em:
+  https://teses.usp.br/teses/disponiveis/3/3142/tde-25092018-074019/publico/KleberNogueiraHodelCorr18.pdf.
+  Acesso em: 2 maio 2026.}
+
+\bibitem[Jubelli 2022]{ref:jubelli}
+\abntrefinfo{Jubelli}{JUBELLI}{2022}
+{JUBELLI, F.~J. \emph{\textbf{Análise da Certificação e Ensaio de Testes de
+  Software Aplicado à Sistemas Eletrônicos Embarcados}}. 2022. Monografia
+  (Bacharelado em Engenharia Elétrica) -- Instituto Federal de Santa Catarina
+  (IFSC), Joinville.
+71 f.}
+
+\bibitem[Kenney 2011]{ref:kenney2011}
+\abntrefinfo{Kenney}{KENNEY}{2011}
+{KENNEY, J.~B. Dedicated short-range communications (dsrc) standards in the
+  united states.
+\emph{Proceedings of the IEEE}, v.~99, n.~6, p. 1162--1182, jun 2011.}
+
+\bibitem[Kousaridas 2021]{ref:kousaridas2021}
+\abntrefinfo{Kousaridas}{KOUSARIDAS}{2021}
+{KOUSARIDAS, A. e.~a. \emph{5G Vehicle-to-Everything (V2X) services in
+  cross-border environments: Standardization and Challenges}.
+s.l., 2021.}
+
+\bibitem[Leen e Heffernan 2002]{ref:leen2002}
+\abntrefinfo{Leen e Heffernan}{LEEN; HEFFERNAN}{2002}
+{LEEN, G.; HEFFERNAN, D. Expanding automotive electronic systems.
+\emph{Computer}, v.~35, n.~2, p. 88--93, 02 2002.}
+
+\bibitem[Men e Hou 2021]{ref:men2021}
+\abntrefinfo{Men e Hou}{MEN; HOU}{2021}
+{MEN, J.; HOU, Y. \emph{Controlled Mobility for C-V2X Road Safety Reception
+  Optimization}. 2021. ArXiv preprint.}
+
+\bibitem[Mohammed 2025]{ref:mohammed2025}
+\abntrefinfo{Mohammed}{MOHAMMED}{2025}
+{MOHAMMED, S. F. e.~a. Optimizing end-to-end latency in c-v2x networks: A novel
+  fd-ran and mec integration approach.
+\emph{Vehicular Communications}, v.~55, p. 100955, 2025.}
+
+\bibitem[Munir e Koushanfar 2018]{ref:munir2018}
+\abntrefinfo{Munir e Koushanfar}{MUNIR; KOUSHANFAR}{2018}
+{MUNIR, A.; KOUSHANFAR, F. Design and analysis of secure and dependable
+  automotive cps: A steer-by-wire case study.
+\emph{IEEE Transactions on Dependable and Secure Computing}, jun 2018.
+June 2018.}
+
+\bibitem[{ORGANIZAÇÃO MUNDIAL DA SAÚDE (OMS)} 2023]{ref:oms}
+\abntrefinfo{{ORGANIZAÇÃO MUNDIAL DA SAÚDE (OMS)}}{{ORGANIZAÇÃO MUNDIAL DA
+  SAÚDE (OMS)}}{2023}
+{{ORGANIZAÇÃO MUNDIAL DA SAÚDE (OMS)}. \emph{\textbf{Global status report on
+  road safety 2023}}. Genebra: OMS, 2023.}
+
+\bibitem[OTA 2019]{ref:ota}
+\abntrefinfo{OTA}{OTA}{2019}
+{OTA, D.
+\emph{\textbf{Early De-Risking of Land Vehicles: Open System Architecture
+  Implementations}}.
+Tese (Tese (Doutorado em Computação, Engenharia e Matemática)) --- Vetronics
+  Research Centre, University of Brighton, Brighton, 2019. 150 f.}
+
+\bibitem[{SAE International} 2026]{ref:sae_j2735}
+\abntrefinfo{{SAE International}}{{SAE International}}{2026}
+{{SAE International}. \emph{J2735 - V2X Communications Message Set Dictionary}.
+  2026. Disponível em:
+  https://www.sae.org/standards/j2735-v2x-communications-message-set-dictionary.
+Acesso em: 6 ago. 2026.}
+
+\bibitem[Sohail 2025]{ref:sohail2025}
+\abntrefinfo{Sohail}{SOHAIL}{2025}
+{SOHAIL, M. S. e.~a. Performance analysis and security preservation of dsrc in
+  v2x networks.
+\emph{Electronics}, v.~14, n.~19, p.~3786, set 2025.}
+
+\bibitem[{U.S. Department of Transportation (USDOT)} 2024]{ref:usdot2024}
+\abntrefinfo{{U.S. Department of Transportation (USDOT)}}{{U.S. Department of
+  Transportation (USDOT)}}{2024}
+{{U.S. Department of Transportation (USDOT)}. \emph{Vehicle-to-Everything (V2X)
+  Deployer Resource}. Washington, D.C.: Intelligent Transportation Systems
+  (ITS) Joint Program Office (JPO), 2024. Report No. FHWA-JPO-24-149.}
+
+\bibitem[Wang, Mao e Gong 2017]{ref:wang2017}
+\abntrefinfo{Wang, Mao e Gong}{WANG; MAO; GONG}{2017}
+{WANG, X.; MAO, S.; GONG, M.~X. An overview of 3gpp cellular
+  vehicle-to-everything standards.
+\emph{GetMobile: Mobile Computing and Communications}, v.~21, n.~3, p. 19--25,
+  set 2017.}
+
+\bibitem[Yogarayan 2021]{ref:yogarayan2021}
+\abntrefinfo{Yogarayan}{YOGARAYAN}{2021}
+{YOGARAYAN, S. e.~a. V2x communication technology: Adaptability of dsrc,
+  cellular and hybrid networks.
+\emph{Journal of Southwest Jiaotong University}, v.~56, n.~4, p. 535--551, aug
+  2021.}
+
+\end{thebibliography}

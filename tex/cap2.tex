@@ -279,3 +279,55 @@ comunicação com a rede celular para acessar serviços baseados em nuvem, como 
 (OTA). Padronizado pela 3GPP, o C-V2X é projetado para ser compatível com as futuras gerações de redes móveis, permitindo
 uma evolução contínua da tecnologia de comunicação, por exemplo quando transitamos do 4G para o 5G, integrando melhorias
 trazidas pela nova geração de redes móveis.
+
+\section{Padronização e Interoperabilidade de Dados}
+
+Para que possamos garantir que o sistemas V2X funcionem de maneira eficaz, precisamos que o formato dos dados e os protocolos
+de comunicação sejam padronizados, garantindo que os veículos e dispositivos de diferentes fabricantes possam se comunicar
+de maneira confiável. A interoperabilidade é esse conceito de que diferentes sistemas e dispositivos não apenas possam trocar
+dados, mas também possam compreender e utilizar esses dados de maneira eficaz. Para fazer isso funcionar, temos os protocolos
+de aplicação que definem o formato e o conteúdo das mensagens trocadas entre os integrantes do sistema, garantindo que todos
+estejam falando o mesmo idioma.
+
+\subsection{Dicionário de Mensagens SAE J2735}
+
+Com o objetivo de padronizar a comunicação entre veículos e outros elementos do ambiente, a SAE International desenvolveu o
+padrão técnico SAE J2735, que é tratado no trabalho de \cite{ref:kenney2011} e também no site da própria SAE International
+\cite{ref:sae_j2735} como um dicionário de mensagens para a comunicação V2X. Ainda no trabalho de \cite{ref:kenney2011}, ele
+aponta que o conjunto de mensagens mais importante é o BSM (\textit{Basic Safety Message}), que transmite informações críticas
+sobre o estado do veículo, dando suporte a aplicações V2V.
+Um ponto importante de se resaltar que também é mencionado no trabalho de \cite{ref:kenney2011} é que os padrões da SAE ou da
+IEEE, por exemplo, foram feitos com um escopo global, mas cada país ou região pode ter suas próprias regulamentações e
+requisitos específicos. Esforços de governos e organizações internacionais buscam harmonizar esses padrões, mas ainda existem
+diferentes implementações em outras regiões, como ETSI (\textit{European Telecommunications Standards Institute}) e o CEN
+(\textit{European Committee for Standardization}) na Europa e o ARIB (\textit{Association of Radio Industries and Businesses})
+no Japão.
+
+\subsection{Mensagens Fundamentais para Segurança e Mobilidade}
+
+Incluso no conjunto de mensagens padronizadas, algumas mensagens são consideradas fundamentais para a segurança da mobilidade
+e para ampliação da consciência situacional:
+
+\begin{itemize}
+    \item \textbf{BSM (\textit{Basic Safety Message})}: Transmite informações críticas sobre o estado do veículo, como posição,
+    velocidade, direção e status de frenagem. O trabalho da \cite{ref:usdot2024} documenta que essa mensagem é transmitida com
+    uma velocidade de 10 vezes por segundo (10 Hz).
+    \item \textbf{PSM (\textit{Personal Safety Message})}: Similar ao BSM, mas voltada para pedestres e ciclistas, assim o
+    veículo pode receber e processar informações deles, gerando alertas.
+    \item \textbf{SPaT (\textit{Signal Phase and Timing})}: Usado em aplicações V2I, essa mensagem fornece informações sobre
+    o status atual dos sinais de trânsito e o tempo restante para a mudança de fase, evitando que os veículos violem o sinal
+    vermelho ou mantenham uma velocidade adequada para não precisar parar e ainda pegar o sinal transicionando para verde.
+    \item \textbf{SRM (\textit{Signal Request Message})}: Enviado por um veículo para solicitar prioridade em uma interseção,
+    por exemplo marter o sinal verde por mais tempo ou trocar do vermelho para verde mais rapidamente, permitindo que veículos
+    de emergência ou transporte público tenham prioridade.
+\end{itemize}
+
+\subsection{Independência Tecnológica e Conformidade}
+
+A padronização dos dados e protocolos de comunicação tem uma característica técnica importante, que é a independência
+tecnológica, ou seja, os padrões são projetados e podem ser aplicados independentemente da tecnologia de comunicação utilizada,
+como DSRC ou C-V2X.
+Outro ponto importante apontado pela \cite{ref:usdot2024} é a conformidade com os padrões, que é relevante para garantir a
+segurança do sistema. Uma empresa é responsável por garantir as certificações e manter uma lista de dispositivos testados e
+que atenderam aos padrões de interoperabilidade, garantindo que as mensagens recebidas e enviadas foram geradas por um sistema
+que atendeu aos padrões de performance, o que aumenta a confiabilidade da mensagem e aceitação da tecnologia pelos usuários.

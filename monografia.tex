@@ -25,7 +25,6 @@
 \usepackage{graphicx}
 \usepackage{caption}
 \usepackage{subcaption}
-\usepackage[alf]{abntex2cite}
 \usepackage[utf8]{inputenc}
 \usepackage{listings}
 \usepackage{xcolor}
@@ -36,7 +35,7 @@
 \usepackage{hyperref}
 \usepackage{float}
 \floatstyle{plaintop}
-\restylefloat{quadro}
+\newfloat{quadro}{htbp}{loq}
 \floatname{quadro}{Tabela}
 \usepackage{chngcntr}
 \usepackage{lipsum}
@@ -250,8 +249,7 @@
 % inserir lista de quadros
 %---------------------------------------------------------------------%
 
-\renewcommand{\listquadroname}{Lista de Tabelas}
-\listofquadros* 
+\listof{quadro}{Lista de Tabelas}
 \cleardoublepage
 
 
@@ -320,7 +318,7 @@
 % ----------------------------------------------------------
 % Referências bibliográficas
 % ----------------------------------------------------------
-\bibliography{abntex2-options,referencias}
+\bibliography{referencias}
 
 % ----------------------------------------------------------
 % Apêndices

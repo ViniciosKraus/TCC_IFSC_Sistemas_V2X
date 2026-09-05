@@ -1,0 +1,83 @@
+This is BibTeX, Version 0.99e
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: monografia.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: tex/cap1.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: tex/cap2.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: tex/cap3.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: tex/cap4.aux
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+A level-1 auxiliary file: tex/cap5.aux
+Reallocating 'name_of_file' (item size: 1) to 12 items.
+Reallocating 'name_of_file' (item size: 1) to 18 items.
+A level-1 auxiliary file: tex/Apendices.aux
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+A level-1 auxiliary file: tex/Anexos.aux
+Reallocating 'name_of_file' (item size: 1) to 12 items.
+The style file: abntex2-alf.bst
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Database file #1: referencias.bib
+Warning--I didn't find a database entry for "abnt-url-package=url"
+Warning--I didn't find a database entry for "abnt-etal-text=emph"
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-alf.bst versão v<VERSION>           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://www.abntex.net.br/                               |
++---------------------------------------------------------+
+You've used 19 entries,
+            6712 wiz_defined-function locations,
+            1322 strings with 13032 characters,
+and the built_in function-call counts, 13269 in all, are:
+= -- 1080
+> -- 378
+< -- 23
++ -- 180
+- -- 120
+* -- 875
+:= -- 1883
+add.period$ -- 72
+call.type$ -- 19
+change.case$ -- 152
+chr.to.int$ -- 37
+cite$ -- 19
+duplicate$ -- 668
+empty$ -- 1066
+format.name$ -- 556
+if$ -- 3124
+int.to.chr$ -- 0
+int.to.str$ -- 0
+missing$ -- 329
+newline$ -- 101
+num.names$ -- 95
+pop$ -- 431
+preamble$ -- 1
+purify$ -- 62
+quote$ -- 0
+skip$ -- 754
+stack$ -- 1
+substring$ -- 471
+swap$ -- 326
+text.length$ -- 17
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 2
+warning$ -- 0
+while$ -- 124
+width$ -- 0
+write$ -- 303
+(There were 2 warnings)
